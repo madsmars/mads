@@ -414,6 +414,7 @@ a:active {
 }
 
 /* The Modal (background) */
+
 .modal {
     /* display: none; if you want to have it not pop up on loading the page */
     position: fixed;
@@ -495,6 +496,7 @@ textarea {
     resize: none;
     border: none;
     background-color: #fff7f9;
+    overflow: auto;
 }
 
 .new {
@@ -510,7 +512,7 @@ textarea {
 
 #fname, .subject2 {
     width: 80%;
-    color: #918e2f;
+    color: #fa8ea4;
 
 }
 
@@ -518,18 +520,18 @@ textarea {
     width: 70%;
     font-size: 14px;
     font-style: italic;
-    color: #918e2f;
+    color: #fa8ea4;
 }
 #subject1 {
     width: 70%;
     font-size: 16px;
-    color: #918e2f;
+    color: #fa8ea4;
 }
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
     background-color: #ffb2c2;
-    color: #ab6876;
+    color: #fff7f9;
     padding: 12px 20px;
     border: none;
     border-radius: 40px;
