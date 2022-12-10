@@ -1,0 +1,49 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+    font-family: Arial;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 50rem;
+}
+
+h1 {
+    margin-bottom: 1em;
+}
+
+header, footer {
+    padding: 2em;
+    text-align: center;
+}
+
+#main-nav {
+    display: flex;
+    justify-content: center;
+    gap: .5em 3em;
+    flex-wrap: wrap;
+    font-size: 1.25rem;
+}
+
+/* We use a separate .gallery-container class for "separation of concerns" reasons. Basically, we use a .gallery-container here to TOGGLE THE VISIBILITY OF A GALLERY, whereas the .gallery class below is concerned with ACTUALLY STYLING THE GALLERY. The jQuery only interacts with the .gallery-container elements, leaving the .gallery and its styling untouched. */
+.gallery-container {
+    display: none;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+/* this ensures that when the page loads, the first gallery-container is visible */
+.gallery-container:nth-child(1) {
+    display: block;
+}
+
+.gallery img {
+    width: 100%;
+    display: block;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
