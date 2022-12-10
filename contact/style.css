@@ -51,7 +51,7 @@ main {
 }
 
 .main-nav1:hover {
-    color: pink;
+    color: #ffb2c2;
 }
 
 .main-nav2 {
@@ -91,7 +91,7 @@ main {
 }
 
 .main-nav6:hover {
-    color: pink;
+    color: #ffb2c2;
 }
 
 .main-nav7 {
@@ -434,7 +434,7 @@ a:active {
 
 /* Modal Content/Box */
 .modal-content {
-    background-color: white;
+    background-color: #fff7f9;
     /* margin: 15% auto; 15% from the top and centered */
 
     width: 100%;
@@ -445,25 +445,25 @@ a:active {
 .modal-header {
     padding-top: 10px;
     padding-left: 20px;
-    background-color: #c9c9ad;
+    background-color: #ffe6eb;
     color: #333333;
     border-radius: 5px 5px 0px 0px;
 }
 
 .modal-body {
     padding: 10px;
-    color: white;
+    color: #fff7f9;
 }
 
 .modal-footer {
     padding: 2px 16px;
     padding-bottom: 70px;
-    color: white;
+    color: #fff7f9;
 }
 
 /* The Close Button */
 .close {
-    color: ;
+    color: #ffb2c2;
     float: right;
     font-size: 22px;
     font-weight: bold;
@@ -473,7 +473,7 @@ a:active {
 
 .close:hover,
 .close:focus {
-    color: #e34a4a;
+    color: #fa8ea4;
     text-decoration: none;
     cursor: pointer;
 }
@@ -494,6 +494,7 @@ textarea {
     /* Bottom margin */
     resize: none;
     border: none;
+    background-color: #fff7f9;
 }
 
 .new {
@@ -503,7 +504,7 @@ textarea {
 }
 
 #country {
-    border-bottom: #c4c3a9 solid 1px;
+    border-bottom: #ab6876 solid 1px;
     text-align: right;
 }
 
@@ -527,8 +528,8 @@ textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color: #918e2f;
-    color: #ebeacc;
+    background-color: #ffb2c2;
+    color: #ab6876;
     padding: 12px 20px;
     border: none;
     border-radius: 40px;
@@ -537,14 +538,14 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-    background-color: #918e2f;
+    background-color: #fa8ea4;
 }
 
 /* Add a background color and some padding around the form */
 .container {
     border-radius: 5px;
     /* padding: 20px; */
-    background-color: white;
+    background-color: #fff7f9;
     height: auto;
     margin: 0;
 }
