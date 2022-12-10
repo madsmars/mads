@@ -137,8 +137,8 @@ main {
 
 .envelope {
     color: #f5f18e;
-    font-size: 20px;
-    padding-left: 20px;
+    padding-left: 380px;
+    font-size: 30px;
 }
 
 .search {
@@ -282,7 +282,7 @@ main {
 .line1-right {
     width: 75vw;
     height: 50px;
-    padding-top:5px;
+    padding-top: 5px;
     border-radius: 12px 12px 0px 0px;
     display: flex;
     justify-content: right;
@@ -334,6 +334,7 @@ main {
     font-weight: 550;
     color: #333333;
 }
+
 .email-read {
     line-height: 40px;
     display: flex;
@@ -341,29 +342,34 @@ main {
     margin: 0;
     background-color: #dbdabd;
     font-size: 14px;
-    
+
     color: #878674;
     /* font-style: italic; */
 }
+
 .star {
-font-size: 20px;
-padding-top: 4px;
-font-style: normal;
-color: #333333;
+    font-size: 20px;
+    padding-top: 4px;
+    font-style: normal;
+    color: #333333;
 }
+
 .arrow-list {
     font-size: 15px;
     padding-top: 4px;
     font-style: normal;
     color: #333333;
 }
+.words {
+    text-align-last: right;
+}
 
 .descriptions {
     font-style: italic;
-    color:#c9c9ad;
+    color: #c9c9ad;
     font-size: 12px;
     font-weight: 100;
-
+    text-align-last: right;
 }
 
 footer {
@@ -409,113 +415,136 @@ a:active {
 
 /* The Modal (background) */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    /* display: none; if you want to have it not pop up on loading the page */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
     bottom: 0;
     right: 0;
-    width: 40vw; /* Full width */
-    height: 75vh; /* Full height */
+    width: 40vw;
+    /* Full width */
+    height: 75vh;
+    /* Full height */
     /* overflow: auto; Enable scroll if needed */
     margin-right: 150px;
     border-radius: 12px 12px 0px 0px;
     box-shadow: 0px 0px 9px 0.8px #333333;
-  }
-  
-  /* Modal Content/Box */
-  .modal-content {
+}
+
+/* Modal Content/Box */
+.modal-content {
     background-color: white;
     /* margin: 15% auto; 15% from the top and centered */
-    
-    width: 100%; /* Could be more or less, depending on screen size */
-    border-radius: 12px 12px 0px 0px;
-  }
 
-  .modal-header {
+    width: 100%;
+    /* Could be more or less, depending on screen size */
+    border-radius: 12px 12px 0px 0px;
+}
+
+.modal-header {
     padding-top: 10px;
-    padding-left:20px;
+    padding-left: 20px;
     background-color: #c9c9ad;
     color: #333333;
     border-radius: 5px 5px 0px 0px;
-  }
-  
-  .modal-body {
+}
+
+.modal-body {
     padding: 10px;
     color: white;
-  }
+}
 
-  .modal-footer {
+.modal-footer {
     padding: 2px 16px;
+    padding-bottom: 70px;
     color: white;
-  }
+}
 
-  .me {
-    font-size: 14px;
-    border-bottom: #c4c3a9 solid 1px;
-  }
-  
-  /* The Close Button */
-  .close {
-    color: #e34a4a;
+/* The Close Button */
+.close {
+    color: ;
     float: right;
-    font-size:22px;
+    font-size: 22px;
     font-weight: bold;
     margin-right: 10px;
     margin-top: 8px;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #918e2f;
+}
+
+.close:hover,
+.close:focus {
+    color: #e34a4a;
     text-decoration: none;
     cursor: pointer;
-  }
-  /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; Some padding 
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 2px;
     /* border: 1px solid #ccc; Gray border */
     /* border-radius: 4px; Rounded borders */
     /* box-sizing: border-box; Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
     resize: none;
     border: none;
-  }
-  .new {
+}
+
+.new {
     height: 30px;
     width: 100%;
-  }
+    font-style: italic;
+}
 
-  #country {
+#country {
     border-bottom: #c4c3a9 solid 1px;
-  }
-  #fname, .subject2 {
-    width: 80%;
+    text-align: right;
+}
 
-  }
-  #subject {
+#fname, .subject2 {
     width: 80%;
-  }
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
+    color: #918e2f;
+
+}
+
+#subject {
+    width: 70%;
+    font-size: 14px;
+    font-style: italic;
+    color: #918e2f;
+}
+#subject1 {
+    width: 70%;
+    font-size: 16px;
+    color: #918e2f;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
     background-color: #918e2f;
     color: #ebeacc;
     padding: 12px 20px;
     border: none;
     border-radius: 40px;
     cursor: pointer;
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
     background-color: #918e2f;
-  }
-  
-  /* Add a background color and some padding around the form */
-  .container {
+}
+
+/* Add a background color and some padding around the form */
+.container {
     border-radius: 5px;
     /* padding: 20px; */
     background-color: white;
-  }
+    height: auto;
+    margin: 0;
+}
