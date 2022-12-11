@@ -45,7 +45,10 @@ main {
     font-size: 15px;
     padding-left: 15px;
 }
-
+#myBtn:active {
+box-shadow: 0 5px #c1aadf;
+  transform: translateY(4px);
+}
 .main-nav1 {
     color: #f5f18e;
 }
