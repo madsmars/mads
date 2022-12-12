@@ -326,6 +326,7 @@ box-shadow: 0 5px #c1aadf;
 .email-container {
     padding: 0px;
     overflow-y: scroll;
+    scrollbar-color: #9b81bd;
 }
 
 .email {
@@ -438,7 +439,7 @@ a:active {
 
 /* Modal Content/Box */
 .modal-content {
-    background-color: #fff7f9;
+    background-color: #f5efff;
     /* margin: 15% auto; 15% from the top and centered */
 
     width: 100%;
@@ -449,25 +450,25 @@ a:active {
 .modal-header {
     padding-top: 10px;
     padding-left: 20px;
-    background-color: #ffe6eb;
+    background-color: #d5c7ec;
     color: #333333;
     border-radius: 5px 5px 0px 0px;
 }
 
 .modal-body {
     padding: 10px;
-    color: #fff7f9;
+    color: #f5efff;
 }
 
 .modal-footer {
     padding: 2px 16px;
     padding-bottom: 70px;
-    color: #fff7f9;
+    color: #f5efff;
 }
 
 /* The Close Button */
 .close {
-    color: #ffb2c2;
+    color: #c1aadf;
     float: right;
     font-size: 22px;
     font-weight: bold;
@@ -477,7 +478,7 @@ a:active {
 
 .close:hover,
 .close:focus {
-    color: #fa8ea4;
+    color: #9b81bd;
     text-decoration: none;
     cursor: pointer;
 }
@@ -498,8 +499,10 @@ textarea {
     /* Bottom margin */
     resize: none;
     border: none;
-    background-color: #fff7f9;
+    background-color: #f5efff;
     overflow: auto;
+    scrollbar-color: #9b81bd;
+
 }
 
 .new {
@@ -509,13 +512,13 @@ textarea {
 }
 
 #country {
-    border-bottom: #ab6876 solid 1px;
+    border-bottom: #9b81bd solid 1px;
     text-align: right;
 }
 
 #fname, .subject2 {
     width: 80%;
-    color: #fa8ea4;
+    color: #c1aadf;
 
 }
 
@@ -523,18 +526,18 @@ textarea {
     width: 70%;
     font-size: 14px;
     font-style: italic;
-    color: #fa8ea4;
+    color: #c1aadf;
 }
 #subject1 {
     width: 70%;
     font-size: 16px;
-    color: #fa8ea4;
+    color: #c1aadf;
 }
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color: #ffb2c2;
-    color: #fff7f9;
+    background-color: #c1aadf;
+    color: #f5efff;
     padding: 12px 20px;
     border: none;
     border-radius: 40px;
@@ -543,14 +546,14 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-    background-color: #fa8ea4;
+    background-color: #9b81bd;
 }
 
 /* Add a background color and some padding around the form */
 .container {
     border-radius: 5px;
     /* padding: 20px; */
-    background-color: #fff7f9;
+    background-color: #f5efff;
     height: auto;
     margin: 0;
 }
