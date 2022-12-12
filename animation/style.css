@@ -16,7 +16,7 @@ header {
 main {
     background-color: #f9f5ff;
     color: #333333;
-    display: flex;
+    display: grid;
 }
 
 footer {
@@ -154,6 +154,7 @@ footer {
     padding: 0px 5px 0px 5px;
     margin-right: 10px;
     color: #f5f18e;
+    background-color: transparent;
 }
 
 .btn-new {
