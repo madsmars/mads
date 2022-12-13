@@ -521,6 +521,11 @@ textarea {
     color: #c1aadf;
 
 }
+#mname, .subject2 {
+    width: 80%;
+    color: #c1aadf;
+
+}
 
 #subject {
     width: 70%;
