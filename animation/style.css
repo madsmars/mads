@@ -7,7 +7,7 @@
 body {
     background-color: #f9f5ff;
     color: #333333;
-    cursor: url(images/flower.png), auto;
+    cursor: url('images/flower.png'), auto;
 }
 
 header {
@@ -82,7 +82,7 @@ footer {
 }
 
 .main-nav1:hover {
-    color: #f5f18e;
+    color: cornflowerblue;
 }
 
 .main-nav2 {
@@ -100,7 +100,7 @@ footer {
 }
 
 .main-nav3:hover {
-    color: #f5f18e;
+    color: #f5c88e;
 }
 
 .main-nav4 {
@@ -109,7 +109,7 @@ footer {
 }
 
 .main-nav4:hover {
-    color: #f5f18e;
+    color: #ffb2c2;
 }
 
 .main-nav5 {
@@ -118,7 +118,7 @@ footer {
 }
 
 .main-nav5:hover {
-    color: #f5f18e;
+    color: #ff7676;
 }
 
 .main-nav6 {
@@ -127,7 +127,7 @@ footer {
 }
 
 .main-nav6:hover {
-    color: #f5f18e;
+    color: #a77ddd;
 }
 
 .main-nav7 {
@@ -136,7 +136,7 @@ footer {
 }
 
 .main-nav7:hover {
-    color: #f5f18e;
+    color: cornflowerblue;
 }
 
 .right-nav {
@@ -158,6 +158,12 @@ footer {
     margin-right: 10px;
     color: #f5f18e;
     background-color: transparent;
+}
+
+.smile:hover {
+    border: #f5f18e solid 2px;
+    color: #c1aadf;
+    background-color: #f5f18e;
 }
 
 .btn-new {
@@ -281,8 +287,8 @@ footer {
 }
 
 .dark-mode {
-    background-color: black;
     color: #f9f5ff;
+    background-color: #333333;
 }
 
 .links1 {
@@ -456,11 +462,13 @@ footer {
     width: 100%;
     max-width: 900px;
     grid-gap: 20px;
+    padding-top: 30px;
     /* border-bottom: 100px; */
 }
 
 .gallery img {
     width: 100%;
+    border-radius: 8px;
 }
 
 .hidden {
