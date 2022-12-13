@@ -1,11 +1,13 @@
 * {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    cursor: url('images/flower.png'), auto;
 }
 
 body {
     background-color: #f9f5ff;
     color: #333333;
+    cursor: url(images/flower.png), auto;
 }
 
 header {
@@ -333,9 +335,9 @@ footer {
     background-color: transparent;
     align-items: center;
 
-    background-color: #f5f18e;
-    border: #f5f18e solid 1px;
-    color: #c4bf29;
+    background-color: transparent;
+    border: #c1aadf solid 1px;
+    color: #c1aadf;
 }
 
 #dark-btn:hover {
@@ -356,9 +358,9 @@ footer {
     background-color: transparent;
     align-items: center;
 
-    background-color: #f5f18e;
-    border: #f5f18e solid 1px;
-    color: #c4bf29;
+    background-color: transparent;
+    border: #c1aadf solid 1px;
+    color: #c1aadf;
 }
 
 #darker-btn:hover {
@@ -380,9 +382,9 @@ footer {
     margin: 0px 10px 0px 10px;
     align-items: center;
 
-    background-color: #f5f18e;
-    border: #f5f18e solid 1px;
-    color: #c4bf29;
+    background-color: transparent;
+    border: #c1aadf solid 1px;
+    color: #c1aadf;
 }
 
 #contact-btn:hover {
@@ -483,6 +485,7 @@ footer {
     font-size: 8px;
     position: fixed;
     bottom: 10px;
+    left: 10px;
     color: #333333;
 }
 
