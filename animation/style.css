@@ -461,14 +461,17 @@ footer {
     grid-template-columns: 1fr 1fr;
     width: 100%;
     max-width: 900px;
+    max-height: 200px;
     grid-gap: 20px;
     padding-top: 30px;
+    object-fit:fill;
     /* border-bottom: 100px; */
 }
 
 .gallery img {
     width: 100%;
-    border-radius: 8px;
+    border-radius: 50px;
+    /* image size is 1200 x 600px */
 }
 
 .hidden {
