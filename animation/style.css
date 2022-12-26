@@ -341,7 +341,7 @@ footer {
     background-color: transparent;
     align-items: center;
 
-    background-color: transparent;
+    background-color: #f9f5ff;
     border: #c1aadf solid 1px;
     color: #c1aadf;
 }
@@ -364,7 +364,7 @@ footer {
     background-color: transparent;
     align-items: center;
 
-    background-color: transparent;
+    background-color: #f9f5ff;
     border: #c1aadf solid 1px;
     color: #c1aadf;
 }
@@ -388,7 +388,7 @@ footer {
     margin: 0px 10px 0px 10px;
     align-items: center;
 
-    background-color: transparent;
+    background-color: #f9f5ff;
     border: #c1aadf solid 1px;
     color: #c1aadf;
 }
@@ -418,11 +418,15 @@ footer {
 }
 
 .right {
-    margin: 330px 0px 0px 10px;
+    margin: 320px 0px 0px 10px;
     z-index: 1;
     /* background-color:#f9f5ff; */
     padding: 20px;
     max-width: 70vw;
+    background-color: #f9f5ff;
+    border-left: #c1aadf solid 1px;
+    border-radius: 2px 0px 0px 0px;
+    height: 200vh;
 }
 
 #video-counter {
@@ -498,6 +502,7 @@ footer {
     bottom: 10px;
     left: 10px;
     color: #333333;
+    z-index: 0;
 }
 
 .help {
@@ -507,6 +512,7 @@ footer {
     position: fixed;
     bottom: 10px;
     right: 20px;
+    
 }
 
 a:link {
