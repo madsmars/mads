@@ -19,7 +19,7 @@ function expandReadMore() {
     }
 }
 
-
+//glightbox
 
 displayGalleryOnLoad();
 
@@ -46,3 +46,76 @@ $('.gallery-link').click(function () {
     $(`${selectedGallery}`).show();
     $(".gallery-container").not(`${selectedGallery}`).hide();
 })
+
+videoLightBoxes = document.querySelectorAll('.vimeo-lightbox');
+
+videoLightBoxes.forEach(videoLightBox => {
+  videoLightBox.GLightbox = new GLightbox({
+    source: 'vimeo',
+    autoplayVideos: false,
+    openEffect: 'none',
+    closeEffect: 'fade',
+    cssEffects: {
+      fade: { in: 'fadeIn', out: 'fadeOut' },
+      zoom: { in: 'zoomIn', out: 'zoomOut' },
+    },
+    elements: [
+      {
+            'href': videoLightBox.dataset.targetUrl,
+            'type': 'video',
+            'source': 'vimeo', //vimeo, youtube or local
+       },
+    ],
+    touchNavigation: true,
+    loop: true,
+    plyr: {
+      config: {
+        ratio: '16:9', // or '4:3'
+        muted: false,
+        hideControls: false,
+        youtube: {
+          noCookie: true,
+          rel: 0,
+          showinfo: 0,
+          iv_load_policy: 3,
+        },
+        vimeo: {
+          autoplay: false,
+          background: false,
+          loop: true,
+          byline: false,
+          portrait: false,
+          title: false,
+          speed: true,
+          transparent: false,
+        },
+      },
+    },
+  });
+});
+
+// Find all triggers and set up an eventlistener for them
+const lightBoxTriggers = document.querySelectorAll('button[data-trigger-lightbox]');
+lightBoxTriggers.forEach(trigger => {
+  targetElem = document.getElementById(trigger.dataset.triggerLightbox);
+
+  // bail out if no target found
+  if (! targetElem ) {
+    console.log('target not found')
+    return;
+  }
+  trigger.addEventListener('click', triggerLightBox(targetElem)); 
+});
+
+// trigger event listener callback function
+function triggerLightBox(targetElem) {
+  return function(event) {
+    // bail out if lightbox is not initialized
+    if (! ('GLightbox' in targetElem)) {
+      console.log(`GLightbox does not exist in #${targetElem.id}`);
+      return;
+    }
+
+    targetElem.GLightbox.open();
+  }
+}

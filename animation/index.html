@@ -14,6 +14,7 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <link rel="stylesheet" href="/library/glightbox-master/dist/css/glightbox.css">
     <link rel="stylesheet" href="/library/lightbox2/dist/css/lightbox.css">
     <script src="main.js" defer></script>
 </head>
@@ -122,41 +123,47 @@
                  <!-- UNITY -->
                  <div class="gallery-container" id="unity">
                     <div class="gallery">
-                        <!-- THE END -->
-                        <a href="/bio/top8/fof2.mov" data-lightbox="theend">
-                            <img src="images/Unity/theend0.png" alt="start page of a video game" data-title="theend">
-                            <span style="color: #333333;">THE END<i> ✿ 2022</i></span>
-                        </a>
-                        <!-- CATS -->
-                        <a href="/bio/top8/fof2.mov" data-lightbox="cats">
-                            <img src="images/Unity/cats0.png" alt="cats being drawn to a lake" data-title="cats">
-                            <span style="color: #333333;">NATURE CALLS<i> ✿ 2021</i></span>
-                        </a>
-                        <!-- SHARKS -->
-                        <a href="/bio/top8/fof2.mov" data-lightbox="sharks">
-                            <img src="images/Unity/sharks0.png" alt="inflatable sharks swarm a virus" data-title="cats">
-                            <span style="color: #333333;">HIVE MENTALITY<i> ✿ 2021</i></span>
-                        </a>
-                        <!-- WATERFALL -->
-                        <a href="/bio/top8/fof2.mov" data-lightbox="waterfall">
-                            <img src="images/Unity/waterfall0.png" alt="a glitching waterfall" data-title="waterfall">
-                            <span style="color: #333333;">WATERFA11<i> ✿ 2021</i></span>
-                        </a>
-                        <!-- etc -->
+<!-- CATS -->
+                        <a><div id="cats" class="vimeo-lightbox no-external-link-indicator" data-target-url="https://youtu.be/DfWLrURMSRw" >
+                        </div>
+                        <button data-trigger-lightbox="cats"><img src="images/Unity/cats0.png" alt="video2 accessability" data-title="cats">
+                            <span style="color: #333333;">NATURE CALLS<i> <span style="color: #c1aadf;">✿</span> 2021</i></span></button></a>
+<!-- PANDEMIC CAFE -->
+                        <a><div id="pandemiccafe" class="vimeo-lightbox no-external-link-indicator" data-target-url="https://youtu.be/DfWLrURMSRw" >
+                        </div>
+                        <button data-trigger-lightbox="pandemiccafe"><img src="images/Unity/pandemiccafe0.png" alt="video2 accessability" data-title="pandemiccafe">
+                            <span style="color: #333333;">PANDEMIC CAFE<i> <span style="color: #c1aadf;">✿</span> 2021</i></span></button></a>
+ <!-- THE END-->
+                        <a><div id="theend" class="vimeo-lightbox no-external-link-indicator" data-target-url="https://youtu.be/DfWLrURMSRw" >
+                        </div>
+                        <button data-trigger-lightbox="theend"><img src="images/Unity/theend0.png" alt="video2 accessability" data-title="thend">
+                            <span style="color: #333333;">THE END<i> <span style="color: #c1aadf;">✿</span> 2021</i></span></button></a>
+<!-- CHASING WATERFALLS-->
+                        <a><div id="waterfall" class="vimeo-lightbox no-external-link-indicator" data-target-url="https://youtu.be/DfWLrURMSRw" >
+                        </div>
+                        <button data-trigger-lightbox="waterfall"><img src="images/Unity/waterfall0.png" alt="video2 accessability" data-title="waterfall">
+                            <span style="color: #333333;">CHASING WATERFALLS<i> <span style="color: #c1aadf;">✿</span> 2021</i></span></button></a>
+<!-- SHARKS-->
+                        <a><div id="sharks" class="vimeo-lightbox no-external-link-indicator" data-target-url="https://youtu.be/DfWLrURMSRw" >
+                        </div>
+                        <button data-trigger-lightbox="sharks"><img src="images/Unity/sharks0.png" alt="video2 accessability" data-title="sharks">
+                            <span style="color: #333333;">HIVE MENTALITY<i> <span style="color: #c1aadf;">✿</span> 2021</i></span></button></a>
+<!-- etc -->
                     </div>
                 </div>
                 <!-- ALL -->
                 <div class="gallery-container" id="all">
                     <div class="gallery"></div>
                 </div>
+                
                 <!-- GIFS -->
                 <div class="gallery-container" id="gifs">
                     <div class="gallery">
-                        <!-- SANTA HAT SKATE -->
-                        <a href="/bio/top8/fof2.mov" data-lightbox="santa" data-title="santa">
-                            <img src="images/gifs/santa0.png" alt="santa" data-title="santa">
-                            <span style="color: #333333;">SECRET SHREDDER FLYER<i> ✿ 2022</i></span>
-                        </a>
+<!-- SANTA HAT -->
+                        <a><div id="santa" class="vimeo-lightbox no-external-link-indicator" data-target-url="https://youtu.be/DfWLrURMSRw">
+                        </div>
+                        <button data-trigger-lightbox="santa"><img src="images/gifs/santa0.png" alt="video2 accessability" data-title="santa">
+                            <span style="color: #333333;">SECRET SHREDDER FLYER<i> <span style="color: #c1aadf;">✿</span> 2022</i></span></button></a>
                         <!-- SPACE JUNK -->
                         <a href="/bio/top8/fof2.mov" data-lightbox="spacejunk" data-title="spacejunk">
                             <img src="images/gifs/spacejunk0.png" alt="video1" data-title="spacejunk">
@@ -266,7 +273,7 @@
                 <div class="gallery-container" id="film">
                     <div class="gallery">
                         <!-- video1 -->
-                        <a href="videos/yelim.mov" data-lightbox="video1">
+                        <a href="videos/yelim.mov" data-trigger-lightbox="video1">
                             <img src="images/700300.png" alt="video1 accessability" data-title="film video1">
                             <span style="color: #333333;">FILM 1 VIDEO TITLE<i> ✿ DATE</i></span>
                         </a>
@@ -275,7 +282,13 @@
                             <img src="images/700300.png" alt="video2 accessability" data-title="film video2">
                             <span style="color: #333333;">FILM 2 VIDEO TITLE<i> ✿ DATE</i></span>
                         </a>
-                        <!-- etc -->
+
+<!-- glightbox test start -->
+                        <!-- <div id="theend" class="vimeo-lightbox no-external-link-indicator" data-target-url="https://youtu.be/DfWLrURMSRw" >
+                        </div>
+                        <button data-trigger-lightbox="theend"><img src="images/Unity/theend0.png" alt="video2 accessability" data-title="film video2">
+                            <span style="color: #333333;">THE END<i> <span style="color: #c1aadf;">✿</span> 2021</i></span></button> -->
+<!-- glightbox test end -->
                     </div>
 
                 </div>
@@ -289,6 +302,7 @@
 
         <a class="help" href="/help" target="_blank">what is going on with this website ?</a>
     </footer>
+    <script src="/library/glightbox-master/dist/js/glightbox.js"></script>
     <script src="/library/lightbox2/dist/js/lightbox-plus-jquery.js"></script>
 </body>
 

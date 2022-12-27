@@ -541,3 +541,9 @@ h1 {
 p {
     color: #333333;
 }
+
+button {
+    background-color: transparent;
+    border: none;
+    
+}
