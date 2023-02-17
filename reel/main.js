@@ -1,3 +1,4 @@
+//dark mode start
 // function toggleDarkMode() {
 //   var element = document.body;
 //   element.classList.toggle("dark-mode");
@@ -18,9 +19,9 @@ function expandReadMore() {
       moreText.style.display = "inline";
     }
 }
-
+//dark mode end
+//lightbox start
 //glightbox
-
 displayGalleryOnLoad();
 
 function displayGalleryOnLoad() {
@@ -119,3 +120,4 @@ function triggerLightBox(targetElem) {
     targetElem.GLightbox.open();
   }
 }
+//lightbox end
