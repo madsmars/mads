@@ -32,78 +32,22 @@ footer {
 }
 
 .left-nav {
-    line-height: 40px;
-    /* within paragraph */
-    margin-bottom: 70px;
-    padding: 100px 40px;
-    /* below paragraph */
-    font-size: 30px;
-    display: grid;
-    max-height: 100vw;
-    max-width: 20vw;
+    font-size: 50px;
+    color: #c1aadf;
+    padding-top: 50px 20px;
+    display: block;
+    position:relative;
+    text-align: right;
+    line-height: 80px;
 }
 
 .main-nav1 {
     color: #c1aadf;
-    padding-left: 15px;
+    padding-left: 20px;
 }
 
 .main-nav1:hover {
-    color: cornflowerblue;
-}
-
-.main-nav2 {
-    color: #c1aadf;
-    padding-left: 15px;
-}
-
-.main-nav2:hover {
-    color: #f5f18e;
-}
-
-.main-nav3 {
-    color: #c1aadf;
-    padding-left: 15px;
-}
-
-.main-nav3:hover {
-    color: #f5c88e;
-}
-
-.main-nav4 {
-    color: #c1aadf;
-    padding-left: 15px;
-}
-
-.main-nav4:hover {
-    color: #ffb2c2;
-}
-
-.main-nav5 {
-    color: #c1aadf;
-    padding-left: 15px;
-}
-
-.main-nav5:hover {
-    color: #ff7676;
-}
-
-.main-nav6 {
-    color: #c1aadf;
-    padding-left: 15px;
-}
-
-.main-nav6:hover {
-    color: #a77ddd;
-}
-
-.main-nav7 {
-    color: #c1aadf;
-    padding-left: 15px;
-}
-
-.main-nav7:hover {
-    color: cornflowerblue;
+    color: #666;
 }
 
 #reel {
@@ -113,8 +57,9 @@ footer {
     max-height: 10vh;
     background-color: #f9f5ff;
     border: none;
-    padding: 50px 0px;
-    right: 300px;
+    padding: 60px 200px;
+    left: auto;
+
 }
 
 img {
