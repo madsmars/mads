@@ -50,6 +50,16 @@ footer {
 .main-nav1:hover {
     color: #666;
 }
+.main-nav2 {
+    color: #c1aadf;
+    font-size: 80PX;
+    padding-top: 30px;
+    font-style: oblique;
+}
+
+.main-nav2:hover {
+    color: #666;
+}
 
 li {
     list-style: none;
