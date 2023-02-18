@@ -13,7 +13,7 @@ body {
 
 header {
     width: 100vw;
-    height: 8vw;
+    height: 5vw;
     max-height: 9vw;
     max-width: 100vw;
     display: flex;
@@ -41,24 +41,23 @@ footer {
     max-width: 30vw;
     width: 20vw;
     padding-left: 3vw;
-    padding-top: 3vw;
 }
 
 .main-nav1 {
-    color: #c1aadf;
+    color: #cec0e0;
 }
 
 .main-nav1:hover {
-    color: #666;
+    color: #c1aadf;
 }
 .main-nav2 {
-    color: #c1aadf;
+    color: #cec0e0;
     font-size: 5vw;
     font-style: oblique;
 }
 
 .main-nav2:hover {
-    color: #666;
+    color: #c1aadf;
 }
 
 li {
@@ -71,9 +70,14 @@ li {
     max-height: 10vh;
     background-color: #f9f5ff;
     border: none;
-    padding: 2vw 4vw 1vw 4vw;
+    padding: 0vw 4vw 1vw 4vw;
     width: 60vw;
     max-width: 60vw;
+    opacity: 100%;
+    transition: opacity 1s;
+}
+#reel:hover {
+    opacity: 30%;
 }
 
 img {
@@ -141,19 +145,21 @@ button {
 
 /* scroll bit */
 .marquee {
+    color: #cec0e0;
     position: relative;
     width: 100vw;
     max-width: 100%;
-    height: 4vw;
+    height: 8vw;
     overflow-x: hidden;
-    font-size: 4vw;
+    font-size: 8vw;
+    padding-top: 5vw;
   }
   
   .track {
     position: absolute;
     white-space: nowrap;
     will-change: transform;
-    animation: marquee 90s linear infinite;
+    animation: marquee 250s linear infinite;
   }
   
   @keyframes marquee {
