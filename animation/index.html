@@ -39,14 +39,15 @@
                 </div>
                 <div class="right-nav">
                     <!-- <button class="smile" onclick="toggleDarkMode()">☺</button> -->
-                    <button class="smile">☺</button>
                     <button class="btn-new">newest work</button>
-                    <a class="btn-reel" href="/reel">animation reel</a>
+                    <a class="btn-reel" href="/reel"><i>DEMO REEL</i></a>
+                    <br>
+                    <button class="smile">☺</button>
                 </div>
             </nav>
         </div>
         <div class="banner">
-            <img class="banner" src="images/txtskate.png" alt="banner image">
+            <img class="banner" src="images/doorslam.gif" alt="banner image">
             <!-- it can also be a video. maybe a piece of ur reel?? -->
         </div>
     </header>
@@ -70,32 +71,34 @@
                             expandReadMore()" id="myBtn">read some more</button></p>
                 </div>
 
+                <div class="container3">
+                    <p class="name" style="color: #333;"><i>activity</i></p>
+                    <p class="left-list">
+                        <span style="align-items:left;">from saic</span>
+                        <span style="align-items:right;">2024</span>
+                    </p>
+                    <p class="left-list">
+                        <span style="align-items:left;">showcases</span>
+                        <span style="align-items:right;">some</span>
+                    </p>
+                    <p class="left-list">
+                        <span style="align-items:left;">videos</span>
+                        <span style="align-items:right;">many</span>
+                    </p>
+                    <p class="left-list">
+                        <span style="align-items:left;">collections</span>
+                        <span style="align-items:right;">a few</span>
+                    <p class="left-list">
+                        <span style="align-items:left;">creating since</span>
+                        <span style="align-items:right;">2018</span>
+                    </p>
+                    <div id="circles"></div>
+                </div>
                 <div class="container2">
                     <div class="buttons1">
-                        <button id="contact-btn" onclick="window.location.href = '/contact/';">contact me here</button>
-                        <button id="dark-btn"
-                            onclick="window.location.href = 'https://www.youtube.com/channel/UC_z8fAuBocfgCM69tYmiKWA';">you-<br>tube</button>
-                        <button id="darker-btn"
-                            onclick="window.location.href = 'https://vimeo.com/';">vim<br>-eo</button>
+                        <button id="youtube-btn"
+                            onclick="window.location.href = 'https://www.youtube.com/channel/UC_z8fAuBocfgCM69tYmiKWA';">youtube</button>
                     </div>
-                </div>
-
-                <div class="container3">
-                    <p class="name" style="color: #c1aadf;"><i>activity</i></p>
-                    <p class="left-list">bfa from saic
-                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2024</p>
-                    <p class="left-list">
-                        showcases&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;some
-                    </p>
-                    <p class="left-list">
-                        videos&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;many
-                    </p>
-                    <p class="left-list">
-                        collections&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;a
-                        few</p>
-                    <p class="left-list">creating since
-                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2018</p>
-                    <div id="circles"></div>
                 </div>
             </div>
         </div>
@@ -539,18 +542,43 @@
                                             style="color: #c1aadf;">✿</span>
                                         2020</i></span></button>
                         </a>
-                        <!-- video2 -->
-                        <a href="images/comingsoon.png" data-lightbox="video2">
-                            <img src="images/comingsoon.png" alt="video2 accessability" data-title="film video2">
-                            <span style="color: #333333;">COMING<i> ✿ SOON</i></span>
+                        <!-- CHANGE -->
+                        <a>
+                            <div id="sundial" class="vimeo-lightbox no-external-link-indicator"
+                                data-target-url="https://youtu.be/7k4cBwSu4uo">
+                            </div>
+                            <button data-trigger-lightbox="sundial"><img src="images/film/sundial0.png"
+                                    alt="sundial accessability" data-title="sundial">
+                                <span style="color: #333333;">SUNDIAL<i> <span style="color: #c1aadf;">✿</span>
+                                        2020</i></span></button>
                         </a>
+                        <!-- LA VIE -->
+                        <a>
+                            <div id="lavie" class="vimeo-lightbox no-external-link-indicator"
+                                data-target-url="https://youtu.be/N-3rWbVSRDY">
+                            </div>
+                            <button data-trigger-lightbox="lavie"><img src="images/film/lavie0.png"
+                                    alt="lavie accessability" data-title="lavie">
+                                <span style="color: #333333;">LA VIE<i> <span style="color: #c1aadf;">✿</span>
+                                        2019</i></span></button>
+                        </a>
+                        <!-- video2 -->
+                        <a>
+                            <div id="comingsoon" class="vimeo-lightbox no-external-link-indicator"
+                                data-target-url="images/comingsoon.png">
+                            </div>
+                            <button data-trigger-lightbox="comingsoon"><img src="images/comingsoon.png"
+                                    alt="comingsoon accessability" data-title="comingsoon">
+                                <span style="color: #333333;">COMING<i> <span style="color: #c1aadf;">✿</span>
+                                        SOON</i></span></button>
 
-                        <!-- glightbox test start -->
-                        <!-- <div id="theend" class="vimeo-lightbox no-external-link-indicator" data-target-url="https://youtu.be/DfWLrURMSRw" >
+
+                            <!-- glightbox test start -->
+                            <!-- <div id="theend" class="vimeo-lightbox no-external-link-indicator" data-target-url="https://youtu.be/DfWLrURMSRw" >
                         </div>
                         <button data-trigger-lightbox="theend"><img src="images/Unity/theend0.png" alt="video2 accessability" data-title="film video2">
                             <span style="color: #333333;">THE END<i> <span style="color: #c1aadf;">✿</span> 2021</i></span></button> -->
-                        <!-- glightbox test end -->
+                            <!-- glightbox test end -->
                     </div>
 
                 </div>
