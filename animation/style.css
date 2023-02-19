@@ -247,8 +247,8 @@ footer {
     background-color: #f5f18e;
 }
 .banner {
-    width: 100vw;
-    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
     background-color: #FBF9FF;
     object-fit: cover;
     z-index: 0;
