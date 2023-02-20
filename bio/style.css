@@ -366,17 +366,9 @@ footer {
     padding-left: 1.5vw;
 }
 
-.blog-pic1 {
-    width: 20vw;
-    height: 30vw;
-    border-radius: 6vw 6vw 0vw 0vw;
-    object-fit: cover;
+.blog1 {
 
-}
-
-.blog {
-
-    max-width: 300px; 
+    max-width: 40vw; 
     border-radius: 6vw;
     background-color: rgba(119, 145, 25, 0.3);
     margin-left: auto;
@@ -384,8 +376,49 @@ footer {
     margin-left: 1vw;
 }
 
+.blog-pic1 {
+    width: 20vw;
+    height: 30vw;
+    border-radius: 6vw 6vw 0vw 0vw;
+    object-fit: cover;
+}
+
+.blog2 {
+
+    max-width: 80vw; 
+    border-radius: 6vw;
+    background-color: rgba(119, 145, 25, 0.3);
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 1vw;
+}
+
+.blog-pic2 {
+    width: 40vw;
+    height: 30vw;
+    border-radius: 6vw 6vw 0vw 0vw;
+    object-fit: cover;
+}
+
+.blog3 {
+
+    max-width: 50vw; 
+    border-radius: 6vw;
+    background-color: rgba(119, 145, 25, 0.3);
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 1vw;
+}
+
+.blog-pic3 {
+    width: 50vw;
+    height: 30vw;
+    border-radius: 6vw 6vw 0vw 0vw;
+    object-fit: cover;
+}
+
 .gallery2 {
-    transform: translateX(84%);
+    transform: translateX(50vw);
     display: flex;
 }
 
@@ -398,6 +431,7 @@ footer {
 .music {
     bottom: 0;
     position: fixed;
+
 }
 
 .copyright {
@@ -449,6 +483,7 @@ h2 {
     margin: auto;
     margin: 0%;
     left: 0px;
+    float: right;
     /* overflow: hidden; */
 
 }
