@@ -24,6 +24,7 @@ footer {
     bottom: 20px;
     color: #333333;
 }
+
 .top-links {
     display: block;
     padding: 0.01vw 1vw;
@@ -74,12 +75,6 @@ footer {
     position: absolute;
     align-items: center;
     mix-blend-mode: multiply;
-}
-
-.profile-pic {
-    max-width: 4vw;
-    border-radius: 1vw;
-    margin-left: 1vw;
 }
 
 .search {
