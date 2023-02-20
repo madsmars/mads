@@ -227,7 +227,7 @@ footer {
     color: #f8fcf7;
     writing-mode: vertical-rl;
     width: 4vw;
-    height: 25vw;
+    height: 26vw;
     font-weight: 600;
     align-self: center;
     transform: rotate(-180deg);
@@ -238,7 +238,7 @@ footer {
 
 .about {
     /* background-color: rgba(255, 171, 171, 0.5); */
-    background-color: rgba(119, 145, 25, 0.5);
+    background-color: rgba(134, 147, 88, 0.9);
     width: 30vw;
     height: 100vw;
     padding: 1vw 2vw;
