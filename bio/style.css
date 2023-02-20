@@ -41,32 +41,20 @@ footer {
     position: fixed;
 }
 
-.box {
-    /* background-color: rgba(119, 145, 25, 0.9); */
-    width: 11vw;
-    height: 18.5vw;
-    /* margin-left: 0.5vw; */
-    margin-top: 0.2vw;
-    text-align: center;
-    color: #f8fcf7;
-    left: 10vw;
-    /* position: fixed; */
-    /* mix-blend-mode: multiply; */
-}
-
 .box-bottom {
     /* border-radius: 0vw 0vw 6vw 0vw; */
-    background-color: rgba(119, 145, 25, 0.5);
+    background-color: rgba(134, 147, 88, 1);
 }
 
 #profile-pic {
-    width: 11vw;
-    width: 11vw;
-    border-radius: 0vw 6vw 0vw 0vw;
+    width: 25vw;
+    max-width: 25vw;
+    border-radius: 6vw 6vw 0vw 0vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
     opacity: 1.0;
+    transform: translateX(200%);
 }
 
 /* .short {
@@ -81,16 +69,17 @@ footer {
 
 .flowers {
     font-size: 1.1vw;
-    color:#e34a4a
+    color: #e34a4a
 }
 
 .box2 {
     padding-left: 1vw;
-    background-color: rgba(119, 145, 25, 1);
+    background-color: rgba(134, 147, 88, 1);
     width: 10vw;
-    height: 54vh;
+    height: 95vh;
     color: #f8fcf7;
-    border-radius: 0vw 0vw 6vw 0vw;
+    border-radius: 0vw 6vw 0vw 0vw;
+    margin-top: 1vw;
 }
 
 .title {
@@ -202,8 +191,8 @@ footer {
 }
 
 .scroll {
-    width: 88.4vw;
-    height: 91.5vh;
+    width: 88.5vw;
+    height: 95vh;
     align-content: right;
     overflow-y: hidden;
     position: absolute;
@@ -212,48 +201,65 @@ footer {
     margin-top: 2.2vw;
     margin-right: 0.3vw;
     margin-bottom: 1vw;
-    border-radius: 6vw;
-    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 6vw 0vw 0vw 0vw;
+    /* background-color: rgba(255, 255, 255, 0.3); */
+}
+
+.about {
+    /* background-color: rgba(255, 171, 171, 0.5); */
+    background-color: rgba(134, 147, 88, 1);
+    width: 23vw;
+    height: 100vw;
+    padding: 1vw;
+    /* padding-left: 1.5vw; */
+    color: #f8fcf7;
+    font-size: 0.8vw;
+    size: auto;
+    transform: translateX(200%);
+    line-height: 1.5vw;
+    border-radius: 0vw 0vw 6vw 6vw;
+    margin-top: 0vw;
 }
 
 .hscroll>div {
     background-color: #f8fcf7;
     width: 10vw;
-    height: 12vw;
+    height: 40vw;
     transform: rotate(-90deg);
     transform-origin: right top;
 }
 
 .instructions {
-    font-size: 1vw;
+    font-size: 0.7vw;
     /* margin-bottom: 1vw; */
     color: #f8fcf7;
     writing-mode: vertical-rl;
     width: 4vw;
-    height: 26vw;
+    height: 29vw;
     font-weight: 600;
-    align-self: center;
+    margin-top: 19vw;
     transform: rotate(-180deg);
-    transform: translateX(47.5vw);
+    transform: translateX(51vw);
+    z-index: 1;
+    opacity: 50%;
+}
+
+.bio {
+    height: 90vh;
+    border-radius: 6vw;
 }
 
 .flowers2 {
     margin: 0.3vw 0vw 0.3vw 0vw;
 }
 
-.about {
-    /* background-color: rgba(255, 171, 171, 0.5); */
-    background-color: rgba(134, 147, 88, 0.9);
-    width: 30vw;
-    height: 100vw;
-    padding: 1vw;
-    padding-left: 1.5vw;
-    color: #f8fcf7;
-    font-size: 1vw;
-    size: auto;
-    transform: translateX(200%);
-    line-height: 1.5vw;
-    border-radius: 6vw 0vw 0vw 6vw;
+.mads {
+    font-size: 4vw;
+    margin-bottom: 1vw;
+}
+
+.blurb {
+    margin: 0vw 1vw 0.5vw 2vw;
 }
 
 .link {
@@ -277,147 +283,116 @@ footer {
     font-size: 0.8vw;
     background-color: #f8fcf7;
     color: rgba(134, 147, 88, 1);
+    width: 2.3vw;
+    max-width: 2.3vw;
     padding: 0.2vw 6.6vw;
     border-radius: 1vw;
+    margin-left: 2vw;
 }
 
 .tumblr:hover {
     font-size: 0.8vw;
     padding: 0.2vw 6.6vw;
     background-color: #e34a4a;
+    width: 2.3vw;
+    max-width: 2.3vw;
     color: #f8fcf7;
     font-style: italic;
+    margin-left: 2vw;
 }
 
 .instagram {
     font-size: 0.8vw;
     background-color: #f8fcf7;
     color: rgba(134, 147, 88, 1);
-    width: 4.6vw;
-    max-width: 4.6vw;
+    width: 2.3vw;
+    max-width: 2.3vw;
     padding: 0.2vw 5.5vw;
     border-radius: 1vw;
+    margin-left: 2vw;
 }
 
 .instagram:hover {
     font-size: 0.8vw;
     color: #f8fcf7;
     background-color: #e34a4a;
+    width: 2.3vw;
+    max-width: 2.3vw;
     padding: 0.2vw 5.5vw;
     border-radius: 1vw;
     font-style: italic;
+    margin-left: 2vw;
 }
 
 .info {
     padding-top: 0.1vw;
     line-height: 1.5vw;
     padding-bottom: 0.1vw;
-    width: 20vw;
+    width: 25vw;
 }
 
 .city {
     width: 100%;
     height: auto;
-    max-width: 4vw;
-    padding: 0.2vw;
+    max-width: 5vw;
+    padding: 0.1vw;
     border: 0.1vw white solid;
     background-color: white;
-    margin: 0.5vw;
+    margin-left: 1vw;
 
 }
 
 .blah {
-    font-size: 0.7vw;
-    line-height: 10px;
+    font-size: 0.5vw;
+    line-height: 0.5vw;
     float: right;
-    padding-top: 2.3vw;
-    padding-right: 60px;
+    padding-top: 0.5vw;
+    /* padding-right: 4.5vw; */
+    display: flex;
+    margin-right: 2vw;
+}
 
+.listening {
+    display: inline;
 }
 
 .big-title {
-    margin-top: 1vw;
     font-size: 2vw;
+    margin-left: 1.5vw;
 }
 
 .little-title {
     font-size: 0.5vw;
-    padding-left: 2vw;
+    padding-left: 1.5vw;
 }
 
-.icon-gallery {
+.blog-pic1 {
+    width: 20vw;
+    height: 30vw;
+    border-radius: 6vw 6vw 0vw 0vw;
+    object-fit: cover;
 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    width: 2vw;
-    max-width: 4vw;
-    grid-gap: 0.5vw;
-    /* border-bottom: 100px; */
-    padding-top: 1vw;
-    padding-right: 1vw;
 }
 
-.icon-gallery img {
-    width: 4.5vw;
-}
+.blog {
 
-.blog1 {
-    max-width: 300px;
-    max-height: 90vw;
-    padding: 10px;
-    margin: 0vw 1vw;
+    max-width: 300px; 
     border-radius: 6vw;
     background-color: rgba(119, 145, 25, 0.3);
     margin-left: auto;
     margin-right: auto;
+    margin-left: 1vw;
 }
 
-.blog2 {
-    max-width: 300px;
-    max-height: 90vw;
-    padding: 10px;
-    margin: 0vw 1vw;
-    border-radius: 6vw;
-    background-color: rgba(119, 145, 25, 0.3);
-
-}
-
-.blog3 {
-    max-width: 300px;
-    max-height: 90vw;
-    padding: 10px;
-    margin: 0vw 1vw;
-    border-radius: 6vw;
-    background-color: rgba(119, 145, 25, 0.3);
-}
-
-.blog4 {
-    max-width: 300px;
-    max-height: 90vw;
-    padding: 10px;
-    margin: 0vw 1vw;
-    border-radius: 6vw;
-    background-color: rgba(119, 145, 25, 0.3);
-}
-
-.blog5 {
-    max-width: 300px;
-    max-height: 90vw;
-    padding: 10px;
-    margin: 0vw 1vw;
-    border-radius: 6vw;
-    background-color: rgba(119, 145, 25, 0.3);
+.gallery2 {
+    transform: translateX(84%);
+    display: flex;
 }
 
 .cage {
     background-color: rgba(0, 0, 0, 0.5);
     max-width: 320px;
     max-height: 420px;
-}
-
-.gallery2 {
-    transform: translateX(44%);
-    display: flex;
 }
 
 .music {
