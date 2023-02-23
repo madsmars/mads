@@ -7,6 +7,7 @@ body {
     height: 100vh;
     color: #333333;
     flex-wrap: wrap;
+    background-color: #ECF2FD;
 }
 
 .left {
@@ -14,28 +15,28 @@ body {
     position: relative;
     flex-direction: column;
     align-self: flex-start;
-    color: #333333;
+    color: #333;
     font-family: Arial, Helvetica, sans-serif;
     width: 10%;
     height: 200vh;
-    background-color: white;
+    background-color: #ECF2FD;
     padding: 20px;
     line-height: 40px;
     max-width: 200px;
-
     flex: 1%;
 }
-.illo {
-   position: fixed;
-   top:25px;
-   left: 20px;
-    color: #c1aadf;
-    font-style: italic;
-    font-size: 25px;
+
+.corner-img {
+    mix-blend-mode: multiply;
+    width: 20vw;
+    max-width: 25vw;
 }
 
 .side-link1 {
-    color: #333333;
+    color: #6494ED;
+    font-weight: 900;
+    font-size:3vw;
+    line-height: 2vw;
 }
 
 .side-link1:hover {
@@ -43,7 +44,10 @@ body {
 }
 
 .side-link2 {
-    color: #333333;
+    color: #6494ED;
+    font-weight: 900;
+    font-size:3vw;
+    line-height: 2vw;
 }
 
 .side-link2:hover {
@@ -51,7 +55,10 @@ body {
 }
 
 .side-link3 {
-    color: #333333
+    color: #6494ED;
+    font-weight: 900;
+    font-size:3vw;
+    line-height: 2vw;
 }
 
 .side-link3:hover {
@@ -59,15 +66,21 @@ body {
 }
 
 .side-link4 {
-    color: #333333;
+    color: #6494ED;
+    font-weight: 900;
+    font-size:3vw;
+    line-height: 2vw;
 }
 
 .side-link4:hover {
-    color: cornflowerblue;
+    color: #333333;
 }
 
 .side-link5 {
-    color: #333333;
+    color: #6494ED;
+    font-weight: 900;
+    font-size:3vw;
+    line-height: 2vw;
 }
 
 .side-link5:hover {
@@ -75,7 +88,10 @@ body {
 }
 
 .side-link6 {
-    color: #333333;
+    color: #6494ED;
+    font-weight: 900;
+    font-size:3vw;
+    line-height: 2vw;
 }
 
 .side-link6:hover {
@@ -83,7 +99,10 @@ body {
 }
 
 .side-link7 {
-    color: #333333;
+    color: #6494ED;
+    font-weight: 900;
+    font-size:3vw;
+    line-height: 2vw;
 }
 
 .side-link7:hover {
@@ -122,9 +141,11 @@ header {
 
 #profile-pic {
     border-radius: 50%;
-    padding: 50px 60px;
-    width: 120px;
-    padding-top: 40px;
+    padding: 5vw 3vw;
+    width: 120vw;
+    padding-top: 4vw;
+    width: 9vw;
+    max-width: 25vw;
 }
 
 .link {
@@ -150,19 +171,24 @@ header {
 }
 
 main {
-    padding-left: 220px;
+    padding-left: 10vw;
     flex: 10%;
+    border-radius: 20vw;
 }
 
 .styles {
     display: flex;
-    padding-bottom: 50px;
+    padding-bottom: 1vw;
+    margin-left: 15vw;
 }
 
 .spotlight {
     border-radius: 50%;
-    width: 70px;
-    padding-left: 50px;
+    width: 7vw;
+    padding-left: 0.5vw;
+}
+.spotlight:hover {
+    padding-left: 4vw;
 }
 
 .emojis {
@@ -181,9 +207,9 @@ main {
 }
 
 .spotlight>img {
-    border-radius: 50%;
-    width: 100%;
-    padding: 0px 0px 15px;
+    border-radius: 9vw;
+    width: 8vw;
+    padding: 0.5vw;
 }
 
 .gallery {
@@ -191,13 +217,13 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
-    max-width: 700px;
-    grid-gap: 20px;
-    /* border-bottom: 100px; */
+    max-width: 70vw;
+    grid-gap: 0.5vw;
 }
 
 .gallery img {
     width: 100%;
+    border-radius: 3vw;
 }
 
 .hidden {
@@ -237,11 +263,14 @@ footer {
 
 .gallery-link {
         color: #333333;
-    }
+        background-color: #ECF2FD;
+        border-radius: 3vw;
+        padding: 0.5vw;
+}
     
 .gallery-link:hover {
-        color: pink;
-    }
+        color: cornflowerblue;
+}
 
 h1 {
     color: #333333;
