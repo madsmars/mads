@@ -133,7 +133,7 @@ footer {
 
 #right {
     flex-wrap: wrap;
-    
+
 }
 
 #profile-pic {
@@ -174,23 +174,15 @@ footer {
 .styles {
     display: flex;
     padding-bottom: 1vw;
-    margin-left: 15vw;
+    /* margin-left: 15vw; */
 }
 
 .spotlight {
     border-radius: 50%;
-    width: 7vw;
-    padding-left: 0.5vw;
-}
-.spotlight:hover {
-    padding-left: 4vw;
-}
-
-.copyright {
-    font-size: 8px;
-    position: fixed;
-    bottom: 10px;
-    color: #333333;
+    width: 10vw;
+    margin: 1vw;
+    line-height: 1vw;
+    padding-left: 2vw;
 }
 
 .link:hover {
@@ -230,10 +222,16 @@ footer {
         background-color: #ECF2FD;
         border-radius: 3vw;
         padding: 0.5vw;
+        font-size: 1.5vw;
+        font-weight: 900;
+        line-height: 1vw;
 }
     
 .gallery-link:hover {
-        color: cornflowerblue;
+        background-color: cornflowerblue;
+        color: #ECF2FD;
+        font-style: italic;
+        
 }
 
 .hidden {
