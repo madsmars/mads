@@ -45,8 +45,8 @@ footer {
 .nav-link {
     background-color: #FFF5FB;
     color: #ffb2c2;
-    font-size: 1vw;
-    padding: 1vw;
+    font-size: clamp(1rem, 1rem + 1vw, 1.5rem);
+    padding: 1em;
 }
 
 .nav-link:hover {

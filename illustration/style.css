@@ -13,16 +13,15 @@ body {
 header {
 
     display: flex;
-    max-width: 900px;
-    padding-left: 200px;
-    padding-bottom: 50px;
-    padding-top: 100px;
+    max-width: 40vw;
+    padding-left: 2vw;
 }
 
 main {
-    padding-left: 10vw;
-    flex: 10%;
-    border-radius: 20vw;
+    /* padding-left: 10vw; */
+    /* flex: 10%; */
+    /* border-radius: 20vw; */
+    width: 30vw;
 }
 
 footer {
@@ -44,7 +43,7 @@ footer {
     background-color: #ECF2FD;
     padding: 20px;
     line-height: 40px;
-    max-width: 200px;
+    max-width: 20vw;
     flex: 1%;
 }
 
@@ -57,7 +56,7 @@ footer {
 .side-link1 {
     color: #6494ED;
     font-weight: 900;
-    font-size:3vw;
+    font-size: 3vw;
     line-height: 2vw;
 }
 
@@ -68,7 +67,7 @@ footer {
 .side-link2 {
     color: #6494ED;
     font-weight: 900;
-    font-size:3vw;
+    font-size: 3vw;
     line-height: 2vw;
 }
 
@@ -79,7 +78,7 @@ footer {
 .side-link3 {
     color: #6494ED;
     font-weight: 900;
-    font-size:3vw;
+    font-size: 3vw;
     line-height: 2vw;
 }
 
@@ -90,7 +89,7 @@ footer {
 .side-link4 {
     color: #6494ED;
     font-weight: 900;
-    font-size:3vw;
+    font-size: 3vw;
     line-height: 2vw;
 }
 
@@ -101,7 +100,7 @@ footer {
 .side-link5 {
     color: #6494ED;
     font-weight: 900;
-    font-size:3vw;
+    font-size: 3vw;
     line-height: 2vw;
 }
 
@@ -112,7 +111,7 @@ footer {
 .side-link6 {
     color: #6494ED;
     font-weight: 900;
-    font-size:3vw;
+    font-size: 3vw;
     line-height: 2vw;
 }
 
@@ -123,7 +122,7 @@ footer {
 .side-link7 {
     color: #6494ED;
     font-weight: 900;
-    font-size:3vw;
+    font-size: 3vw;
     line-height: 2vw;
 }
 
@@ -133,41 +132,49 @@ footer {
 
 #right {
     flex-wrap: wrap;
+}
 
+.info {
+    display: flex;
 }
 
 #profile-pic {
     border-radius: 50%;
     padding: 5vw 3vw;
-    width: 120vw;
-    padding-top: 4vw;
-    width: 9vw;
+    width: 10vw;
+    height: 10vw;
+    margin-left: 15vw;
     max-width: 25vw;
 }
 
 .numbers {
-    padding-top: 10px;
+    padding-top: 0.5vw;
     padding-bottom: 20px;
+    display: flex;
+    width: 80vw;
 }
 
 #bio {
-    line-height: 20px;
+    line-height: 2vw;
+    font-size: 2vw;
 }
 
 .title {
     color: grey;
+    font-size: 1vw;
 }
 
 .words {
-    font-size: 12px;
-    size: auto;
-    max-width: 20vw;
+    max-width: 50vw;
+    min-width: 30vw;
     padding-bottom: 5px;
+    font-size: 1vw;
+    line-height: 2.5vw;
 }
 
 .link {
     color: #135A90;
-    font-size: 13px;
+    font-size: 1vw;
     padding-top: 0%;
 }
 
@@ -218,20 +225,19 @@ footer {
 }
 
 .gallery-link {
-        color: #333333;
-        background-color: #ECF2FD;
-        border-radius: 3vw;
-        padding: 0.5vw;
-        font-size: 1.5vw;
-        font-weight: 900;
-        line-height: 1vw;
+    color: #333333;
+    background-color: #ECF2FD;
+    border-radius: 3vw;
+    padding: 0.5vw;
+    font-size: 1.5vw;
+    font-weight: 900;
+    line-height: 1vw;
 }
-    
+
 .gallery-link:hover {
-        background-color: cornflowerblue;
-        color: #ECF2FD;
-        font-style: italic;
-        
+    background-color: cornflowerblue;
+    color: #ECF2FD;
+    font-style: italic;
 }
 
 .hidden {
@@ -257,8 +263,10 @@ footer {
 
 h1 {
     color: #333333;
-    font-size: 22px;
-    font-weight: 5;
+    font-size: 7vw;
+    font-weight: 900;
+    margin-bottom: 0.5vw;
+    margin-left: 15vw;
 }
 
 a:link {
