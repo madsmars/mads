@@ -10,6 +10,28 @@ body {
     background-color: #ECF2FD;
 }
 
+header {
+
+    display: flex;
+    max-width: 900px;
+    padding-left: 200px;
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+
+main {
+    padding-left: 10vw;
+    flex: 10%;
+    border-radius: 20vw;
+}
+
+footer {
+    font-size: 12px;
+    position: fixed;
+    bottom: 20px;
+    color: #333333;
+}
+
 .left {
     display: flex;
     position: relative;
@@ -109,34 +131,8 @@ body {
     color: #ffb2c2;
 }
 
-
-.copyright {
-    font-size: 8px;
-    position: fixed;
-    bottom: 10px;
-    color: #333333;
-}
-
-
 #right {
     flex-wrap: wrap;
-}
-
-header {
-
-    display: flex;
-    max-width: 900px;
-    padding-left: 200px;
-    padding-bottom: 50px;
-    padding-top: 100px;
-}
-
-.title {
-    color: grey;
-}
-
-#bio {
-    line-height: 20px;
 }
 
 #profile-pic {
@@ -146,6 +142,26 @@ header {
     padding-top: 4vw;
     width: 9vw;
     max-width: 25vw;
+}
+
+.numbers {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#bio {
+    line-height: 20px;
+}
+
+.copyright {
+    font-size: 8px;
+    position: fixed;
+    bottom: 10px;
+    color: #333333;
+}
+
+.title {
+    color: grey;
 }
 
 .link {
@@ -158,22 +174,11 @@ header {
     color: pink;
 }
 
-.numbers {
-    padding-top: 10px;
-    padding-bottom: 20px;
-}
-
 .words {
     font-size: 12px;
     size: auto;
     max-width: 20vw;
     padding-bottom: 5px;
-}
-
-main {
-    padding-left: 10vw;
-    flex: 10%;
-    border-radius: 20vw;
 }
 
 .styles {
@@ -228,13 +233,6 @@ main {
 
 .hidden {
     display: none;
-}
-
-footer {
-    font-size: 12px;
-    position: fixed;
-    bottom: 20px;
-    color: #333333;
 }
 
 .copyright {
