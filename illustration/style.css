@@ -11,9 +11,8 @@ body {
 }
 
 header {
-
+    height: 2vw;
     display: flex;
-    max-width: 40vw;
     padding-left: 2vw;
 }
 
@@ -21,7 +20,7 @@ main {
     /* padding-left: 10vw; */
     /* flex: 10%; */
     /* border-radius: 20vw; */
-    width: 30vw;
+    width: 64vw;
 }
 
 footer {
@@ -132,8 +131,13 @@ footer {
 
 #right {
     flex-wrap: wrap;
+    max-height: 500vw;
+    max-width: 70vw;
 }
 
+.top-right {
+    height: 1.8vw;
+}
 .info {
     display: flex;
 }
@@ -156,7 +160,7 @@ footer {
 
 #bio {
     line-height: 2vw;
-    font-size: 2vw;
+    font-size: 1vw;
 }
 
 .title {
@@ -167,9 +171,9 @@ footer {
 .words {
     max-width: 50vw;
     min-width: 30vw;
-    padding-bottom: 5px;
+    padding-bottom: 0.5vw;
     font-size: 1vw;
-    line-height: 2.5vw;
+    line-height: 1vw;
 }
 
 .link {
@@ -182,6 +186,7 @@ footer {
     display: flex;
     padding-bottom: 1vw;
     /* margin-left: 15vw; */
+    margin-left: 30vw;
 }
 
 .spotlight {
@@ -190,6 +195,7 @@ footer {
     margin: 1vw;
     line-height: 1vw;
     padding-left: 2vw;
+    margin-top: 33vw;
 }
 
 .link:hover {
@@ -209,6 +215,7 @@ footer {
     width: 100%;
     max-width: 70vw;
     grid-gap: 0.5vw;
+    margin-left: 30vw;
 }
 
 .gallery img {
