@@ -43,7 +43,7 @@ footer {
 
 .box-bottom {
     /* border-radius: 0vw 0vw 6vw 0vw; */
-    background-color: rgba(134, 147, 88, 1);
+    background-color: rgba(33, 34, 51, 1);
 }
 
 #profile-pic {
@@ -74,7 +74,7 @@ footer {
 
 .box2 {
     padding-left: 1vw;
-    background-color: rgba(134, 147, 88, 1);
+    background-color: rgba(33, 34, 51, 1);
     width: 10vw;
     height: 95vh;
     color: #f8fcf7;
@@ -94,6 +94,7 @@ footer {
     font-size: 0.8vw;
     margin-bottom: 0.2vw;
     margin-top: 2vw;
+    color: #c1aadf;
     opacity: 50%;
 }
 
@@ -207,7 +208,7 @@ footer {
 
 .about {
     /* background-color: rgba(255, 171, 171, 0.5); */
-    background-color: rgba(134, 147, 88, 1);
+    background-color: rgba(33, 34, 51, 1);
     width: 23vw;
     height: 100vw;
     padding: 1vw;
@@ -232,7 +233,7 @@ footer {
 .instructions {
     font-size: 0.7vw;
     /* margin-bottom: 1vw; */
-    color: #f8fcf7;
+    color: #c1aadf;
     writing-mode: vertical-rl;
     width: 4vw;
     height: 29vw;
@@ -281,8 +282,8 @@ footer {
 
 .tumblr {
     font-size: 0.8vw;
-    background-color: #f8fcf7;
-    color: rgba(134, 147, 88, 1);
+    background-color: #c1aadf;
+    color: #f8fcf7;
     width: 2.3vw;
     max-width: 2.3vw;
     padding: 0.2vw 6.6vw;
@@ -293,18 +294,18 @@ footer {
 .tumblr:hover {
     font-size: 0.8vw;
     padding: 0.2vw 6.6vw;
-    background-color: #e34a4a;
+    background-color: #f8fcf7;
+    color: #c1aadf;
     width: 2.3vw;
     max-width: 2.3vw;
-    color: #f8fcf7;
     font-style: italic;
     margin-left: 2vw;
 }
 
 .instagram {
     font-size: 0.8vw;
-    background-color: #f8fcf7;
-    color: rgba(134, 147, 88, 1);
+    background-color: #c1aadf;
+    color: #f8fcf7;
     width: 2.3vw;
     max-width: 2.3vw;
     padding: 0.2vw 5.5vw;
@@ -314,8 +315,8 @@ footer {
 
 .instagram:hover {
     font-size: 0.8vw;
-    color: #f8fcf7;
-    background-color: #e34a4a;
+    background-color: #f8fcf7;
+    color: #c1aadf;
     width: 2.3vw;
     max-width: 2.3vw;
     padding: 0.2vw 5.5vw;
@@ -366,55 +367,54 @@ footer {
     padding-left: 1.5vw;
 }
 
-.blog1 {
-
-    max-width: 40vw; 
-    border-radius: 6vw;
-    background-color: rgba(119, 145, 25, 0.3);
+.blog {
+    position: relative;
+    max-width: 60vw; 
+    border-radius: 6vw 6vw 0vw 0vw;
+    background-color: rgba(33, 34, 51, 0.3);
     margin-left: auto;
     margin-right: auto;
     margin-left: 1vw;
 }
 
-.blog-pic1 {
-    width: 20vw;
-    height: 30vw;
+.blog-pic {
+    width: 33vw;
+    height: 48vw;
     border-radius: 6vw 6vw 0vw 0vw;
     object-fit: cover;
 }
 
-.blog2 {
-
-    max-width: 80vw; 
-    border-radius: 6vw;
-    background-color: rgba(119, 145, 25, 0.3);
-    margin-left: auto;
-    margin-right: auto;
-    margin-left: 1vw;
-}
-
-.blog-pic2 {
-    width: 40vw;
-    height: 30vw;
+.overlay {
+    position: absolute;
+    bottom: 0;
+    /* left: 100%;
+    right: 0; */
     border-radius: 6vw 6vw 0vw 0vw;
-    object-fit: cover;
+    background-color: rgba(33, 34, 51, 0.7);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    /* transition: .7s ease; */
+    opacity:0;
 }
-
-.blog3 {
-
-    max-width: 50vw; 
-    border-radius: 6vw;
-    background-color: rgba(119, 145, 25, 0.3);
-    margin-left: auto;
-    margin-right: auto;
-    margin-left: 1vw;
-}
-
-.blog-pic3 {
-    width: 50vw;
-    height: 30vw;
+  
+.blog:hover .overlay {
     border-radius: 6vw 6vw 0vw 0vw;
-    object-fit: cover;
+    width: 100%;
+    left: 0;
+    opacity: 1;
+}
+  
+.text {
+    color: white;
+    font-size: 1vw;
+    position: absolute;
+    top: 25vw;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space:initial;
 }
 
 .gallery2 {
@@ -423,7 +423,7 @@ footer {
 }
 
 .cage {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(33, 34, 51, 0.3);
     max-width: 320px;
     max-height: 420px;
 }
