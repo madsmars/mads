@@ -369,7 +369,7 @@ footer {
 
 .blog {
     position: relative;
-    max-width: 60vw; 
+    max-width: 60vw;
     border-radius: 6vw 6vw 0vw 0vw;
     background-color: rgba(33, 34, 51, 0.3);
     margin-left: auto;
@@ -395,29 +395,35 @@ footer {
     width: 0;
     height: 100%;
     /* transition: .7s ease; */
-    opacity:0;
+    opacity: 0;
 }
-  
+
 .blog:hover .overlay {
     border-radius: 6vw 6vw 0vw 0vw;
     width: 100%;
     left: 0;
     opacity: 1;
 }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50vw;
+    color: rgba(33, 34, 51, 0.7);
+}
+
 .here {
-    background-color: #f8fcf7;
+    /* background-color: #f8fcf7; */
     color: #c1aadf;
-    padding:  0.3vw 0.5vw;
-    border-radius: 1vw;
-    margin-top: 0.5vw;
+
 }
 
 .here:hover {
-    background-color:#c1aadf;
-    color: #f8fcf7;
     font-style: italic;
 }
-  
+
 .text {
     color: white;
     font-size: 1vw;
@@ -427,7 +433,7 @@ footer {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    white-space:initial;
+    white-space: initial;
 }
 
 .gallery2 {
@@ -487,7 +493,7 @@ h2 {
 }
 
 .container-audio {
-    width: 100vw;
+    width: 100%;
     /* height: auto; */
     max-height: 2vw;
     /* padding: 20px; */
@@ -504,7 +510,6 @@ h2 {
 audio {
     width: 100%;
     height: 1.4vw;
-    /* padding-right: 0vw; */
     background-color: #404040;
     top: 0vw;
 }
@@ -517,7 +522,7 @@ audio:nth-child(6) {
 }
 
 .container-audio .colum1 {
-    width: 10vw;
+    width: 100%;
     height: 10em;
     border-radius: 1vw;
     margin: 0vw;
@@ -527,6 +532,7 @@ audio:nth-child(6) {
 
 .container-audio .colum1:last-child {
     margin: 0;
+    width: 100%;
 }
 
 .container-audio .colum1 .row {
@@ -811,11 +817,13 @@ audio:nth-child(6) {
 } */
 
 audio::-webkit-media-controls-panel {
-    background-color: #404040;
+    background-color: #c1aadf;
     height: 1.4vw;
+    width: 100vw;
 }
 
 audio::-webkit-media-controls-current-time-display {
     color: white;
     height: 1.4vw;
+    width: 100vw;
 }
