@@ -61,6 +61,7 @@ footer {
 
 .sidelink-home:hover {
     color: #ffb2c2;
+    font-size: 3.5vw;
 }
 
 .sidelink-bio {
@@ -72,6 +73,7 @@ footer {
 
 .sidelink-bio:hover {
     color: #c1aadf;
+    font-size: 3.5vw;
 }
 
 .sidelink-storyboards {
@@ -83,6 +85,7 @@ footer {
 
 .sidelink-storyboards:hover {
     color: cornflowerblue;
+    font-size: 3.5vw;
 }
 
 .sidelink-animation {
@@ -94,6 +97,7 @@ footer {
 
 .sidelink-animation:hover {
     color: #c1aadf;
+    font-size: 3.5vw;
 }
 
 .sidelink-resume {
@@ -105,6 +109,7 @@ footer {
 
 .sidelink-resume:hover {
     color: #e34a4a;
+    font-size: 3.5vw;
 }
 
 .sidelink-contact {
@@ -116,6 +121,7 @@ footer {
 
 .sidelink-contact:hover {
     color: #6494ED;
+    font-size: 3.5vw;
 }
 
 .sidelink-sketchbook {
@@ -127,6 +133,7 @@ footer {
 
 .sidelink-sketchbook:hover {
     color: #ffb2c2;
+    font-size: 3.5vw;
 }
 
 .sidelink-store {
@@ -138,6 +145,7 @@ footer {
 
 .sidelink-store:hover {
     color: #e34a4a;
+    font-size: 3.5vw;
 }
 
 #right {
