@@ -7,7 +7,7 @@ body {
     height: 100vh;
     color: #333333;
     flex-wrap: wrap;
-    background-color: #ECF2FD;
+    background-color: #f5f4d5;
 }
 
 header {
@@ -39,7 +39,7 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     width: 10%;
     height: 200vh;
-    background-color: #ECF2FD;
+    background-color: #f5f4d5;
     padding: 20px;
     line-height: 40px;
     max-width: 20vw;
@@ -52,81 +52,92 @@ footer {
     max-width: 25vw;
 }
 
-.side-link1 {
-    color: #6494ED;
-    font-weight: 900;
-    font-size: 3vw;
-    line-height: 2vw;
-}
-
-.side-link1:hover {
+.sidelink-home {
     color: #bcb72a;
-}
-
-.side-link2 {
-    color: #6494ED;
     font-weight: 900;
     font-size: 3vw;
     line-height: 2vw;
 }
 
-.side-link2:hover {
+.sidelink-home:hover {
+    color: #ffb2c2;
+}
+
+.sidelink-bio {
+    color: #bcb72a;
+    font-weight: 900;
+    font-size: 3vw;
+    line-height: 2vw;
+}
+
+.sidelink-bio:hover {
+    color: #c1aadf;
+}
+
+.sidelink-storyboards {
+    color: #bcb72a;
+    font-weight: 900;
+    font-size: 3vw;
+    line-height: 2vw;
+}
+
+.sidelink-storyboards:hover {
+    color: cornflowerblue;
+}
+
+.sidelink-animation {
+    color: #bcb72a;
+    font-weight: 900;
+    font-size: 3vw;
+    line-height: 2vw;
+}
+
+.sidelink-animation:hover {
+    color: #c1aadf;
+}
+
+.sidelink-resume {
+    color: #bcb72a;
+    font-weight: 900;
+    font-size: 3vw;
+    line-height: 2vw;
+}
+
+.sidelink-resume:hover {
     color: #e34a4a;
 }
 
-.side-link3 {
-    color: #6494ED;
-    font-weight: 900;
-    font-size: 3vw;
-    line-height: 2vw;
-}
-
-.side-link3:hover {
-    color: #c1aadf;
-}
-
-.side-link4 {
-    color: #6494ED;
-    font-weight: 900;
-    font-size: 3vw;
-    line-height: 2vw;
-}
-
-.side-link4:hover {
-    color: #333333;
-}
-
-.side-link5 {
-    color: #6494ED;
-    font-weight: 900;
-    font-size: 3vw;
-    line-height: 2vw;
-}
-
-.side-link5:hover {
-    color: #c1aadf;
-}
-
-.side-link6 {
-    color: #6494ED;
-    font-weight: 900;
-    font-size: 3vw;
-    line-height: 2vw;
-}
-
-.side-link6:hover {
+.sidelink-contact {
     color: #bcb72a;
-}
-
-.side-link7 {
-    color: #6494ED;
     font-weight: 900;
     font-size: 3vw;
     line-height: 2vw;
 }
 
-.side-link7:hover {
+.sidelink-contact:hover {
+    color: #6494ED;
+}
+
+.sidelink-sketchbook {
+    color: #bcb72a;
+    font-weight: 900;
+    font-size: 3vw;
+    line-height: 2vw;
+}
+
+.sidelink-sketchbook:hover {
     color: #ffb2c2;
+}
+
+.sidelink-store {
+    color: #bcb72a;
+    font-weight: 900;
+    font-size: 3vw;
+    line-height: 2vw;
+}
+
+.sidelink-store:hover {
+    color: #e34a4a;
 }
 
 #right {
@@ -138,7 +149,7 @@ footer {
 .top-right {
     height: 1.8vw;
 }
-.info {
+/* .info {
     display: flex;
 }
 
@@ -153,7 +164,7 @@ footer {
 
 .numbers {
     padding-top: 0.5vw;
-    padding-bottom: 20px;
+    padding-bottom: 2vw;
     display: flex;
     width: 80vw;
 }
@@ -180,7 +191,7 @@ footer {
     color: #135A90;
     font-size: 1vw;
     padding-top: 0%;
-}
+} */
 
 .styles {
     display: flex;
@@ -192,10 +203,10 @@ footer {
 .spotlight {
     border-radius: 50%;
     width: 10vw;
-    margin: 1vw;
+    margin: 0.5vw;
     line-height: 1vw;
     padding-left: 2vw;
-    margin-top: 33vw;
+    margin-top: 13vw;
 }
 
 .link:hover {
@@ -232,8 +243,8 @@ footer {
 }
 
 .gallery-link {
-    color: #333333;
-    background-color: #ECF2FD;
+    color: #bcb72a;
+    background-color: #f5f4d5;
     border-radius: 3vw;
     padding: 0.5vw;
     font-size: 1.5vw;
@@ -242,8 +253,8 @@ footer {
 }
 
 .gallery-link:hover {
-    background-color: cornflowerblue;
-    color: #ECF2FD;
+    background-color: #bcb72a;
+    color: #f5f4d5;
     font-style: italic;
 }
 
@@ -296,7 +307,7 @@ a:active {
 }
 
 p {
-    font-size: 13px;
+    font-size: clamp(1vw, 1vw, 5vw);
     margin: 0px;
 
 }

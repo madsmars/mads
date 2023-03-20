@@ -42,7 +42,7 @@ footer {
     line-height: 0.9vw;
 }
 
-.nav-link {
+.navlink-about {
     background-color: #FFF5FB;
     color: #ffb2c2;
     /* font-size: clamp(1rem, 1rem + 1vw, 1.5rem); */
@@ -50,11 +50,60 @@ footer {
     padding: 1em;
 }
 
-.nav-link:hover {
+.navlink-store {
+    background-color: #FFF5FB;
+    color: #ffb2c2;
+    /* font-size: clamp(1rem, 1rem + 1vw, 1.5rem); */
+    font-size: 1vw;
+    padding: 1em;
+}
+
+.navlink-demo {
+    background-color: #FFF5FB;
+    color: #ffb2c2;
+    /* font-size: clamp(1rem, 1rem + 1vw, 1.5rem); */
+    font-size: 1vw;
+    padding: 1em;
+}
+
+.navlink-contact {
+    background-color: #FFF5FB;
+    color: #ffb2c2;
+    /* font-size: clamp(1rem, 1rem + 1vw, 1.5rem); */
+    font-size: 1vw;
+    padding: 1em;
+}
+
+.navlink-about:hover {
     color: #FFF5FB;
-    background-color: #ffb2c2;
+    background-color: cornflowerblue;
     border-radius: 2vw;
     padding: 1vw;
+    font-style: italic;
+}
+
+.navlink-store:hover {
+    color: #FFF5FB;
+    background-color: #e34a4a;
+    border-radius: 2vw;
+    padding: 1vw;
+    font-style: italic;
+}
+
+.navlink-demo:hover {
+    color: #FFF5FB;
+    background-color: #c1aadf;
+    border-radius: 2vw;
+    padding: 1vw;
+    font-style: italic;
+}
+
+.navlink-contact:hover {
+    color: #FFF5FB;
+    background-color: #bcb72a;
+    border-radius: 2vw;
+    padding: 1vw;
+    margin-right: 0.2vw;
     font-style: italic;
 }
 
@@ -135,73 +184,85 @@ footer {
     padding-left: 2vw;
 }
 
-.link6 {
+.link-bio {
     color: #333333;
     font-size: 2vw;
 }
 
-.link6:hover {
-    color: cornflowerblue;
-    font-style: italic;
-}
-
-.link1 {
-
-    color: #333333;
-    font-size: 2vw;
-    padding-top: 0%;
-}
-
-.link1:hover {
-    color: #bcb72a;
-    font-style: italic;
-}
-
-.link3 {
-
-    color: #333333;
-    font-size: 2vw;
-    padding-top: 0%;
-}
-
-.link3:hover {
+.link-bio:hover {
     color: #c1aadf;
     font-style: italic;
 }
 
-.link4 {
+.link-illustration {
 
     color: #333333;
     font-size: 2vw;
     padding-top: 0%;
 }
 
-.link4:hover {
+.link-illustration:hover {
+    color: #bcb72a;
+    font-style: italic;
+}
+
+.link-storyboards {
+
+    color: #333333;
+    font-size: 2vw;
+    padding-top: 0%;
+}
+
+.link-storyboards:hover {
+    color: cornflowerblue;
+    font-style: italic;
+}
+
+.link-animation {
+
+    color: #333333;
+    font-size: 2vw;
+    padding-top: 0%;
+}
+
+.link-animation:hover {
+    color: #c1aadf;
+    font-style: italic;
+}
+
+.link-resume {
+
+    color: #333333;
+    font-size: 2vw;
+    padding-top: 0%;
+}
+
+.link-resume:hover {
     color: #e34a4a;
     font-style: italic;
 }
 
-.link2 {
+.link-contact {
 
     color: #333333;
     font-size: 2vw;
     padding-top: 0%;
 }
 
-.link2:hover {
-    color: #ffb2c2;
+.link-contact:hover {
+    color: #bcb72a;
     font-style: italic;
 }
 
-.link5 {
+.link-sketchbook {
 
     color: #333333;
     font-size: 2vw;
     padding-top: 0%;
 }
 
-.link5:hover {
-    color: #bcb72a;
+.link-sketchbook:hover {
+    color: #ffb2c2;
     font-style: italic;
 }
 

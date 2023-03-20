@@ -39,7 +39,7 @@ footer {
 }
 .navigation {
     width: 100vw;
-    height: 4vw;
+    height: 5vw;
     background-color: #c1aadf;
     display: flex;
     position: fixed;
@@ -54,7 +54,7 @@ footer {
 
 .title {
     padding-top: 1vw;
-    padding-left: 3vw;
+    padding-left: 1vw;
     color: #f5f18e;
     font-style: italic;
     font-size: 2vw;
@@ -68,119 +68,125 @@ footer {
     color: white;
     padding-left: 6.2vw;
     line-height: 1vw;
+    padding-left: 4vw;
 }
 
 .left-nav {
     font-size: 1vw;
     color: white;
-    padding-left: 4vw;
-    padding-top: 1.7vw;
-}
-
-.main-nav1 {
-    color: #f9f5ff;
-    background-color: #c1aadf;
-    padding-left: 1vw;
-    border-radius: 2vw;
-    padding: 0.6vw;
-}
-
-.main-nav1:hover {
+    padding-left: 16vw;
+    /* padding-top: 3vw; */
+    margin-top: 1.7vw;
+    position: fixed;
+    height: 1.5vw;
     
-    background-color: cornflowerblue;
-    border-radius: 2vw;
-    padding: 0.6vw;
-
 }
 
-.main-nav2 {
+.mainnav-1 {
     color: #f9f5ff;
-    background-color: #c1aadf;
-    padding-left: 1vw;
-    border-radius: 2vw;
-    padding: 0.6vw;
+    padding-left: 0.5vw;
+    font-weight: 900;
+    font-size: 2vw;
+    line-height: 2vw;
 }
 
-.main-nav2:hover {
-    color: #c1aadf;
-    background-color: #f5f18e;
-    border-radius: 2vw;
-    padding: 0.6vw;
+.mainnav-1:hover {
+    color: #ffb2c2;
+    font-size: 2.5vw;
+    margin-top: 1vw;
+    line-height: 2vw;
+    font-style: italic;
 }
 
-.main-nav3 {
+.mainnav-2 {
     color: #f9f5ff;
-    background-color: #c1aadf;
-    padding-left: 1vw;
-    border-radius: 2vw;
-    padding: 0.6vw;
+    padding-left: 0.5vw;
+    font-weight: 900;
+    font-size: 2vw;
+    line-height: 2vw;
 }
 
-.main-nav3:hover {
-    
-    background-color: #f5c88e;
-    border-radius: 2vw;
-    padding: 0.6vw;
+.mainnav-2:hover {
+    color: #e34a4a;
+    font-size: 2.5vw;
+    line-height: 2vw;
+    font-style: italic;
 }
 
-.main-nav4 {
+.mainnav-3 {
     color: #f9f5ff;
-    background-color: #c1aadf;
-    padding-left: 1vw;
-    border-radius: 2vw;
-    padding: 0.6vw;
+    padding-left: 0.5vw;
+    font-weight: 900;
+    font-size: 2vw;
+    line-height: 2vw;
 }
 
-.main-nav4:hover {
-   
-    background-color: #ffb2c2;
-    border-radius: 2vw;
-    padding: 0.6vw;
+
+.mainnav-3:hover {
+    color: #f5f18e;
+    font-size: 2.5vw;
+    line-height: 2vw;
+    font-style: italic;
 }
 
-.main-nav5 {
+.mainnav-4 {
     color: #f9f5ff;
-    background-color: #c1aadf;
-    padding-left: 1vw;
-    border-radius: 2vw;
-    padding: 0.6vw;
+    padding-left: 0.5vw;
+    font-weight: 900;
+    font-size: 2vw;
+    line-height: 2vw;
 }
 
-.main-nav5:hover {
-    
-    background-color: #ff7676;
-    border-radius: 2vw;
-    padding: 0.6vw;
+.mainnav-4:hover {
+    color: cornflowerblue;
+    font-size: 2.5vw;
+    line-height: 2vw;
+    font-style: italic;
 }
 
-.main-nav6 {
+.mainnav-5 {
     color: #f9f5ff;
-    background-color: #c1aadf;
-    padding-left: 1vw;
-    border-radius: 2vw;
-    padding: 0.6vw;
+    padding-left: 0.5vw;
+    font-weight: 900;
+    font-size: 2vw;
+    line-height: 2vw;
 }
 
-.main-nav6:hover {
-    
-    background-color: #a77ddd;
-    border-radius: 2vw;
-    padding: 0.6vw;
+.mainnav-5:hover {
+    color: #e34a4a;
+    font-size: 2.5vw;
+    line-height: 2vw;
+    font-style: italic;
 }
 
-.main-nav7 {
+.mainnav-6 {
     color: #f9f5ff;
-    background-color: #c1aadf;
-    padding-left: 1vw;
-    border-radius: 2vw;
-    padding: 0.6vw;
+    padding-left: 0.5vw;
+    font-weight: 900;
+    font-size: 2vw;
+    line-height: 2vw;
 }
 
-.main-nav7:hover {
-    
-    background-color: cornflowerblue;
-    border-radius: 2vw;
-    padding: 0.6vw;
+.mainnav-6:hover {
+    color: #f5f18e;
+    font-size: 2.5vw;
+    line-height: 2vw;
+    font-style: italic;
+}
+
+.mainnav-7 {
+    color: #f9f5ff;
+    padding-left: 0.5vw;
+    font-weight: 900;
+    font-size: 2vw;
+    line-height: 2vw;
+}
+
+.mainnav-7:hover {
+    color: #ffb2c2;
+    font-size: 2.5vw;
+    line-height: 2vw;
+    font-style: italic;
 }
 
 .right-nav {
@@ -195,8 +201,8 @@ footer {
 .btn-new {
     /* padding: 5px 8px 5px 8px; */
     border: none;
-    border-radius: 2vw;
-    padding: 0.4vw;
+    border-radius: 3vw;
+    padding: 0.8vw;
     margin-right: 1vw;
     margin-top: 0.8vw;
     font-weight: 600;
@@ -213,16 +219,16 @@ footer {
 }
 
 .btn-reel {
-    padding: 0.3vw;
-    padding-top: 0.5vw;
+    padding: 0.5vw;
+    padding-top: 0.8vw;
     border: none;
-    margin-top: 0.8vw;
-    border-radius: 1.4vw;
+    margin-top: 0.7vw;
+    border-radius: 3vw;
     font-weight: 600;
     background-color: transparent;
     /* border: #f5f18e solid 0.2vw; */
     color: #f5f18e;
-    font-size: 1.3vw;
+    font-size: 1vw;
 }
 
 .btn-reel:hover {
@@ -232,7 +238,7 @@ footer {
 }
 .smile {
     font-size: 2vw;
-    border-radius: 2vw;
+    border-radius: 3vw;
     /* border: #f5f18e solid 0.2vw; */
     padding: 0vw 0.1vw 0.3vw 0.1vw;
     margin-left: 1vw;
