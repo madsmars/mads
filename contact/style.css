@@ -400,37 +400,35 @@ main {
 }
 
 .email {
-    line-height: 40px;
+    line-height: 3.2vw;
     display: flex;
-    border-bottom: #dbdabd solid 1px;
+    border-bottom: #dbdabd solid 0.1vw;
     margin: 0;
-    font-size: 14px;
+    font-size: 1vw;
     font-weight: 550;
     color: #333333;
 }
 
 .email-read {
-    line-height: 40px;
+    line-height: 3.2vw;
     display: flex;
-    border-bottom: #c4c3a9 solid 1px;
+    border-bottom: #c4c3a9 solid 0.1vw;
     margin: 0;
     background-color: #dbdabd;
-    font-size: 14px;
+    font-size: 1vw;
 
     color: #878674;
     /* font-style: italic; */
 }
 
 .star {
-    font-size: 20px;
-    padding-top: 4px;
+    font-size: 1.3vw;
     font-style: normal;
     color: #333333;
 }
 
 .arrow-list {
-    font-size: 15px;
-    padding-top: 4px;
+    font-size: 1.2vw;
     font-style: normal;
     color: #333333;
 }
