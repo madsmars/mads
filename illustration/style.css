@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
 
     font-family: Arial, Helvetica, sans-serif;
@@ -151,11 +156,19 @@ footer {
 #right {
     flex-wrap: wrap;
     max-height: 500vw;
-    max-width: 70vw;
+    max-width: 100vw;
 }
 
 .top-right {
-    height: 1.8vw;
+    height: 3vw;
+    font-family: "gurkner-jump", sans-serif;
+    font-style: normal;
+    color: #bcb72a;
+    font-size: clamp(3rem, 15vw, 50rem);
+    font-weight: 400;
+    margin-bottom: 0.5vw;
+    padding-right: 1vw;
+    /* margin-left: 8vw; */
 }
 /* .info {
     display: flex;
@@ -214,7 +227,7 @@ footer {
     margin: 0.5vw;
     line-height: 1vw;
     padding-left: 2vw;
-    margin-top: 13vw;
+    margin-top: 17vw;
 }
 
 .link:hover {
@@ -285,14 +298,6 @@ footer {
     position: fixed;
     bottom: 10px;
     right: 20px;
-}
-
-h1 {
-    color: #333333;
-    font-size: 7vw;
-    font-weight: 900;
-    margin-bottom: 0.5vw;
-    margin-left: 15vw;
 }
 
 a:link {
