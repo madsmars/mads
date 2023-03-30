@@ -16,7 +16,7 @@ header {
 }
 
 main {
-    background-color: #f9f5ff;
+    background-color: #c1aadf;
     color: #333333;
     display: flex;
     flex-wrap: wrap;
@@ -39,8 +39,8 @@ footer {
 }
 .navigation {
     width: 100vw;
-    height: 5vw;
-    background-color: #c1aadf;
+    height: 3vw;
+    /* background-color: #c1aadf; */
     display: flex;
     position: fixed;
     z-index: 2;
@@ -53,13 +53,15 @@ footer {
 }
 
 .title {
-    padding-top: 1vw;
-    padding-left: 1vw;
-    color: #f5f18e;
+    padding-top: 2vw;
+    padding-bottom: 4vw;
+    color: #333;
     font-style: italic;
-    font-size: 2vw;
-    font-weight: 600;
+    font-size: 8vw;
+    font-weight: 400;
     line-height: 1vw;
+    font-family: "gurkner-jump", sans-serif;
+    font-style: normal;
 }
 
 .sub-title {
@@ -86,14 +88,13 @@ footer {
     color: #c1aadf;
     padding-left: 0.5vw;
     font-weight: 900;
-    font-size: 2vw;
+    font-size: 3vw;
     line-height: 2vw;
 }
 
 .mainnav-home:hover {
     color: #ffb2c2;
-    font-size: 2.5vw;
-    margin-top: 1vw;
+    font-size: 3.5vw;
     line-height: 2vw;
     font-style: italic;
 }
@@ -102,13 +103,13 @@ footer {
     color: #c1aadf;
     padding-left: 0.5vw;
     font-weight: 900;
-    font-size: 2vw;
+    font-size: 3vw;
     line-height: 2vw;
 }
 
 .mainnav-bio:hover {
     color: #e34a4a;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     line-height: 2vw;
     font-style: italic;
 }
@@ -117,14 +118,14 @@ footer {
     color: #c1aadf;
     padding-left: 0.5vw;
     font-weight: 900;
-    font-size: 2vw;
+    font-size: 3vw;
     line-height: 2vw;
 }
 
 
 .mainnav-illustration:hover {
-    color: #f5f18e;
-    font-size: 2.5vw;
+    color: #bcb72a;
+    font-size: 3.5vw;
     line-height: 2vw;
     font-style: italic;
 }
@@ -133,13 +134,13 @@ footer {
     color: #c1aadf;
     padding-left: 0.5vw;
     font-weight: 900;
-    font-size: 2vw;
+    font-size: 3vw;
     line-height: 2vw;
 }
 
 .mainnav-storyboards:hover {
     color: cornflowerblue;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     line-height: 2vw;
     font-style: italic;
 }
@@ -148,13 +149,13 @@ footer {
     color: #c1aadf;
     padding-left: 0.5vw;
     font-weight: 900;
-    font-size: 2vw;
+    font-size: 3vw;
     line-height: 2vw;
 }
 
 .mainnav-resume:hover {
     color: #e34a4a;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     line-height: 2vw;
     font-style: italic;
 }
@@ -163,13 +164,13 @@ footer {
     color: #c1aadf;
     padding-left: 0.5vw;
     font-weight: 900;
-    font-size: 2vw;
+    font-size: 3vw;
     line-height: 2vw;
 }
 
 .mainnav-contact:hover {
-    color: #f5f18e;
-    font-size: 2.5vw;
+    color: #bcb72a;
+    font-size: 3.5vw;
     line-height: 2vw;
     font-style: italic;
 }
@@ -178,13 +179,13 @@ footer {
     color: #c1aadf;
     padding-left: 0.5vw;
     font-weight: 900;
-    font-size: 2vw;
+    font-size: 3vw;
     line-height: 2vw;
 }
 
 .mainnav-sketchbook:hover {
     color: #ffb2c2;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     line-height: 2vw;
     font-style: italic;
 }
@@ -192,7 +193,7 @@ footer {
 .right-nav {
     color: white;
     padding-left: 1vw;
-    right: 1vw;
+    right: 50%;
     position: absolute;
     flex-direction: row;
     display: flex;
@@ -201,12 +202,12 @@ footer {
 .btn-new {
     /* padding: 5px 8px 5px 8px; */
     border: none;
-    border-radius: 3vw;
+    border-radius: 1vw;
     padding: 0.8vw;
-    margin-right: 1vw;
+    margin-right: 0.2vw;
     margin-top: 0.8vw;
     font-weight: 600;
-    background-color: transparent;
+    background-color: #c1aadf;
     /* border: #f5f18e solid 0.2vw; */
     color: #f5f18e;
     font-size: 1vw;
@@ -223,9 +224,10 @@ footer {
     padding-top: 0.8vw;
     border: none;
     margin-top: 0.7vw;
-    border-radius: 3vw;
+    border-radius: 1vw;
     font-weight: 600;
-    background-color: transparent;
+    background-color: #c1aadf;
+    /* background-color: transparent; */
     /* border: #f5f18e solid 0.2vw; */
     color: #f5f18e;
     font-size: 1vw;
@@ -238,13 +240,13 @@ footer {
 }
 .smile {
     font-size: 2vw;
-    border-radius: 3vw;
+    border-radius: 1vw;
     /* border: #f5f18e solid 0.2vw; */
     padding: 0.3vw 0.7vw 0.7vw 0.7vw;
-    margin-left: 1vw;
+    margin-left: 0.2vw;
     margin-top: 0.7vw;
     color: #f5f18e;
-    background-color: transparent;
+    background-color: #c1aadf;
 }
 
 .smile:hover {
@@ -313,9 +315,11 @@ footer {
 }
 
 .location {
-    font-size: 1vw;
-    line-height: 1.5vw;
+    font-size:2vw;
+    line-height: 0vw;
     padding-left: 0.5vw;
+    font-family: "gurkner-jump", sans-serif;
+    font-style: normal;
 }
 
 .main-blurb {
@@ -397,23 +401,25 @@ footer {
 #youtube-btn {
     display: flex;
     border-radius: 2vw;
-    padding: 1vw 2.2vw;
-    width: 20vw;
+    padding: 1vw;
+    width: 28vw;
     height: 8vw;
     margin-right: 1vw;
+    margin-left: 1.1vw;
     margin-bottom: 1vw;
     font-weight: 600;
     font-size: 4vw;
     align-items: center;
-    background-color: #c1aadf;
-    color: #f5f18e; 
+    background-color: rgba(249, 245, 255, 1);
     /* border: #c1aadf solid 1px; */
+    color: #c1aadf;
 }
 
 #youtube-btn:hover {
-    background-color: #f5f18e;
+    background-color: #c1aadf;
+    color: rgba(249, 245, 255, 1);
+    font-size: 5vw;
     /* border: #c1aadf solid 1px; */
-    color: #c1aadf;
 }
 
 .right {
@@ -430,7 +436,7 @@ footer {
 }
 
 .container4 {
-    background-color: rgba(249, 245, 255, 1);
+    /* background-color: rgba(249, 245, 255, 1); */
     /* border-left: #c1aadf solid 1px; */
     border-radius: 2vw;
     padding: 1vw;
