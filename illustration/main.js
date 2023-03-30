@@ -4,6 +4,7 @@ displayGalleryOnLoad();
 function displayGalleryOnLoad() {
     
     const URL = window.location.href.split('#');
+    console.log(window.location.href)
 
     // checks if the default page should be loaded
     if(URL.length == 1) {

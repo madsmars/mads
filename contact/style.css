@@ -59,7 +59,7 @@ main {
     padding-left: 0vw;
 }
 .mainnav-home {
-    color: #f5f18e;
+    color: #f5efff;
     font-weight: 900;
     font-size: 3vw;
     line-height: 2vw;
@@ -71,7 +71,7 @@ main {
 }
 
 .mainnav-bio {
-    color: #f5f18e;
+    color: #f5efff;
     font-weight: 900;
     font-size: 3vw;
     line-height: 2vw;
@@ -83,7 +83,7 @@ main {
 }
 
 .mainnav-illustration {
-    color: #f5f18e;
+    color: #f5efff;
     font-weight: 900;
     font-size: 3vw;
     line-height: 2vw;
@@ -95,7 +95,7 @@ main {
 }
 
 .mainnav-storyboards {
-    color: #f5f18e;
+    color: #f5efff;
     font-weight: 900;
     font-size: 3vw;
     line-height: 2vw;
@@ -107,7 +107,7 @@ main {
 }
 
 .mainnav-animation {
-    color: #f5f18e;
+    color: #f5efff;
     font-weight: 900;
     font-size: 3vw;
     line-height: 2vw;
@@ -119,7 +119,7 @@ main {
 }
 
 .mainnav-resume {
-    color: #f5f18e;
+    color: #f5efff;
     font-weight: 900;
     font-size: 3vw;
     line-height: 2vw;
@@ -131,7 +131,7 @@ main {
 }
 
 .mainnav-sketchbook {
-    color: #f5f18e;
+    color: #f5efff;
     font-weight: 900;
     font-size: 3vw;
     line-height: 2vw;
@@ -143,7 +143,7 @@ main {
 }
 
 .mainnav-store {
-    color: #f5f18e;
+    color: #f5efff;
     font-weight: 900;
     font-size: 3vw;
     line-height: 2vw;
@@ -309,7 +309,7 @@ main {
     background-color: #ebeacc;
     display: flex;
     margin: 1vw;
-    border-radius: 2vw;
+    border-radius: 2vw 2vw 0vw  0vw;
     flex-direction: column;
     overflow-y: scroll;
 }
@@ -374,23 +374,36 @@ main {
 
 .line2 {
     width: 50vw;
-    height: 7vw;
+    height: 3vw;
     display: flex;
-    font-size: 1.5vw;
-    margin-left: 1vw;
-    padding-left: 1vw;
-    word-spacing: 3em;
+    font-size: 1vw;
+    word-spacing: 1em;
     color: #bcb72a;
-    border-bottom: #918e2f solid 0.1vw;
+    border-bottom: #bcb72a solid 0.1vw;
     font-weight: 600;
+    margin-left: 3.5vw;
 }
 
 .line3 {
-    height: 3vw;
-    width: 14vw;
-    background-color: #bcb72a;
-    margin-left: 6.5vw;
+    height: 2vw;
+    width: 8vw;
+    background-color:#bcb72a;
+    margin-left: 1.5vw;
     border-radius: 50% 50% 0vw 0vw;
+}
+
+.p {
+    color: rgba(45, 45, 45, 0.6);
+    font-size: 1.2vw; 
+    margin-top: 0.3vw; 
+    padding-left: 1.9vw; 
+}
+
+.p-s {
+    margin-top:0.8vw;
+    margin-left: 2vw;
+    color: #bcb72a;(45, 45, 45, 0.8);
+    font-weight: 200;
 }
 
 .email-container {
