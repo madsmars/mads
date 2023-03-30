@@ -45,8 +45,8 @@ footer {
     width: 10%;
     height: 200vh;
     background-color: #f5f4d5;
-    padding: 20px;
-    line-height: 40px;
+    padding: 1vw;
+    line-height: 1.5vw;
     max-width: 20vw;
     flex: 1%;
 }
@@ -321,6 +321,5 @@ a:active {
 
 p {
     font-size: clamp(1vw, 1vw, 5vw);
-    margin: 0px;
 
 }
